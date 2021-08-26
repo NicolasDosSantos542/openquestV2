@@ -8,6 +8,7 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
 // Import des routes
 let UserRoutes = require('./routes/user.route')
+let openquestRoutes = require('./routes/openquest.route')
 // -----
 
 let app = express();
@@ -21,11 +22,12 @@ app.use(cors());
 // Routes
 app.use('/api', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use('/user', UserRoutes)
+app.use('/openquest', openquestRoutes)
 // -----
 
 // DB
 let mongoose = require('mongoose');
-let mongoDB = 'mongodb://127.0.0.1/Bod-Health';
+let mongoDB = 'mongodb://127.0.0.1/'+process.env.DBNAME;
 
 mongoose.set('useCreateIndex', true)
 mongoose.set('useFindAndModify', false);

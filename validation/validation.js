@@ -35,14 +35,14 @@ exports.sendMailVerification = async (email, login) => {
         email: email,
     }, process.env.SECRET, {expiresIn: '72 hours'})
     const mailOptions = {
-        from: "Bod'Health",
+        from: "openquest-simulator",
         to: email,
         subject: 'Email de validation',
         html: "<h3>Bonjour " + login + ",</h3><br>" +
-            "<p>Nous devons vérifier votre adresse e-mail avant que vous puissiez accéder à votre profil, Bod'Health. <br>" +
+            "<p>Nous devons vérifier votre adresse e-mail avant que vous puissiez accéder à votre profil, openquest-simulator. <br>" +
             "<a href=\'"+ process.env.FRONT_URL + token + "\'>Vérifiez mon adresse e-mail .</a></p> <br>" +
             "<p>Merci !</p>" +
-            "<p><b><i>L'équipe de Bod'Health</i></b></p>"
+            "<p><b><i>L'équipe de openquest-simulator</i></b></p>"
     };
     await transporter.sendMail(mailOptions)
 }

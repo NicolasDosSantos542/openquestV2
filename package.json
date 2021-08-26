@@ -1,22 +1,23 @@
 {
-  "name": "bod-health-back",
+  "name": "openquest-back",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node bin/www",
+    "dev": "node swagger.js && nodemon bin/www",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ryazza/Bod-Health-Back.git"
+    "url": "git+https://github.com/NicolasDosSantos542/openquestV2"
   },
-  "author": "Thierry Drouin",
+  "author": "Nicolas Demeyère Dos Santos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ryazza/Bod-Health-Back/issues"
+    "url": "https://github.com/NicolasDosSantos542/openquestV2/issues"
   },
-  "homepage": "https://github.com/Ryazza/Bod-Health-Back#readme",
+  "homepage": "https://github.com/NicolasDosSantos542/openquestV2#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
@@ -33,6 +34,7 @@
     "mongoose-unique-validator": "^2.0.3",
     "morgan": "^1.10.0",
     "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12",
     "swagger-autogen": "^2.11.2",
     "swagger-ui-express": "^4.1.6"
   }

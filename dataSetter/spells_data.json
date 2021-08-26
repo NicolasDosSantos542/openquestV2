@@ -1,0 +1,775 @@
+/*
+,
+{
+  "name": "",
+  "category": "",
+  "traits": [
+    ""
+  ],
+  "effectShort": "",
+  "effect":"",
+  "cult": []
+}
+*/
+
+[
+  {
+    "name": "Alarme Spirituelle",
+    "category": "commune",
+    "traits": [
+      "Zone 5m2 / Magnitude",
+      "Non Variable"
+    ],
+    "effectShort": "Le lanceur sent si des esprits franchissent la zone protégée par le sort.",
+    "effect": "Tout esprit qui entre dans la zone d’effet du sort alerte le lanceur. Toutefois, celui-ci ne connait ni le nombre ni le type des esprits intrus. Chaque niveau de Magnitude du sort permet de protéger une zone de 5m2.",
+    "cult": []
+  },
+  {
+    "name": "Améloration d'arme",
+    "category": "commune",
+    "traits": [
+      "Toucher"
+    ],
+    "effectShort": "+ 10 % pour toucher, + 1 dégât pour une arme de mêlée ou une arme naturelle enchantée par ce sort. Les dégâts additionnels causés par le sort sont considérés comme étant magiques.",
+    "effect": "Ce sort peut être lancé sur n’importe quelle arme de mêlée ou toute forme d’attaque sans arme. Pour chaque point de Magnitude, il améliore les chances de toucher de +10 % et inflige un point de dégât additionnel. Ces dégâts supplémentaires sont magiques et affecteront les créatures qui ne peuvent être blessées que par la magie. Les dégâts de base de l’arme restent non magiques. Une arme bénéficiant des effets de ce sort ne peut être affectée par Lame de Feu",
+    "cult": []
+  },
+  {
+    "name": "Améliorer (Compétence)",
+    "category": "commune",
+    "traits": [
+    ],
+    "effectShort": "Ajoute + 10 % par point de Magnitude à la compétence spécifiée.",
+    "effect": "Ce sort est décliné en plusieurs variantes, une par compétence. Pour chaque point de Magnitude du sort, le bénéficiaire gagne +10 % à tout test de compétence concernant la compétence améliorée.\nAlternativement, pour chaque point de Magnitude en plus, le lanceur peut affecter une cible supplémentaire. Le Bonus peut être divisé comme nécessaire entre les différentes cibles du moment que chaque bonus est un multiple de 10 % et que le total des bonus est égal à 10 % par point de Magnitude.\nExemple. Rurik possède Améliorer (Tromperie) 5, il pourrait le lancer sur lui-même pour obtenir un impressionnant +50 % en Tromperie, ou il pourrait le lancer sur lui-même et un allié, s’attribuant +30 % et conférant à son allié +20 %. Dans un groupe plus important, il pourrait le lancer sur 5 alliés, qui gagneraient tous 10 % à leur compétence de Tromperie.\nLes sorts de ce type les plus courants sont :\nAméliorer (Tromperie), souvent utilisé par les voleurs ;\nAméliorer (Négoce), utilisé par les marchands ;\nAméliorer (Influence), utilisé par les avocats, les escrocs et les officiers ;\nAméliorer (Endurance), utilisé par les guerriers ;\nAméliorer (Persévérance), utilisé par les magiciens.\nCes sorts se voient souvent octroyés des noms différents, tels que « Voile de nuit » ou « Ombre Dissimulatrice » (pour Améliorer Tromperie), « Langue de Velours » (pour Améliorer Influence ou Négoce) ou « Vigueur » (pour Améliorer Endurance).",
+    "cult": []
+  },
+  {
+    "name": "Appel d’un Animal",
+    "category": "commune",
+    "traits": [
+      "Magnitude 2",
+      "Non Variable",
+      "Instantané",
+      "Résistance (Persévérance)"
+    ],
+    "effectShort": "Attire un animal à portée.",
+    "effect": "Très utile pour les chasseurs et les éleveurs, ce sort attire un animal ciblé à portée avec une INT fixe de 7 ou moins. Si l’animal échoue à son test de Persévérance, il se déplacera vers l’endroit où le sort a été lancé. Le sort prend fin lorsque l’animal arrive à destination ou si jamais il est bloqué, menacé, ou sollicité.\nExemple. Une monture sous l’effet du sort pourrait se retourner et se déplacer jusque vers le lieu de lancer du sort, mais il suffirait d’un seul coup de rêne de son cavalier pour mettre fin au sort.",
+    "cult": []
+  },
+  {
+    "name": "Appel Spirituel",
+    "category": "commune",
+    "traits": [
+      "Magnitude 3",
+      "Non Variable",
+      "Résistance (Persévérance)"
+    ],
+    "effectShort": "Appelle des esprits au service du lanceur.",
+    "effect": "Ce sort invoque depuis le Monde Spirituel un esprit d’un type donné pour accomplir les volontés du lanceur.\nÀ moins que le sort s’accompagne d’une tentative de Lien (voir le sort Lien Spirituel), l’esprit résiste à l’appel en utilisant sa Persévérance. S’il réussit, il pourra retourner dans le Monde Spirituel. S’il échoue, il devra accomplir une action adaptée à ses capacités pour le compte du lanceur, après quoi il retournera dans le Monde Spirituel.\nTypes d’Esprits\nLes Esprits de Passion (Peur/Folie/Douleur) agissent sur les passions de la victime et lui causent troubles mentaux et détresse.\nLes Esprits de Maladie infligent une maladie à la victime possédée.\nLes Esprits de Soin peuvent être utilisés pour soigner des blessures et exorciser des Esprits de Maladie en possession.\nLes Esprits de Magie connaissent des sorts et possèdent des Points de Magie auxquels le lanceur peut avoir accès.\nLes Esprits Gardiens protègent un lieu pour un nombre de minutes égal au POU du lanceur.\nLes Esprits Ancestraux peuvent fournir une information ou augmenter une compétence pendant la durée du sort, comme indiqué à la page 185.",
+    "cult": []
+  },
+  {
+    "name": "Attaques Multiples",
+    "category": "commune",
+    "traits": [
+      "Instantané"
+    ],
+    "effectShort": "Une attaque supplémentaire par point de Magnitude.",
+    "effect": "Pour chaque point de Magnitude de ce sort, le lanceur peut effectuer une attaque rapprochée supplémentaire. Ces attaques surviennent au même rang de DEX que l’attaque normale. Ce sort ne peut être cumulé.",
+    "cult": []
+  },
+  {
+    "name": "Babel",
+    "category": "commune",
+    "traits": [
+      "Magnitude 2",
+      "Non Variable",
+      "Résistance (Persévérance)"
+    ],
+    "effectShort": "Les paroles de la créature ciblée deviennent du charabia.",
+    "effect": "La créature ciblée qui rate son jet de Résistance peut toujours réfléchir et agir normalement, mais ses paroles deviennent du charabia. De ce fait, un magicien serait incapable de lancer des sorts et un commandant ne pourrait pas donner d’ordres à ses soldats.",
+    "cult": []
+  },
+  {
+    "name": "Bloquer (Sens)",
+    "category": "commune",
+    "traits": [
+      "Magnitude 3",
+      "Non Variable",
+      "Résistance (Persévérance)"
+    ],
+    "effectShort": "Ce sort prive la cible de l’usage d’un sens : elle devient aveugle, ne trouve aucun goût à ce qu’elle mange, etc.",
+    "effect": "La cible qui rate son jet de Résistance perd l’usage du sens spécifié par le lanceur (Vue, Odorat, Toucher, Gout) pour la durée du sort.",
+    "cult": []
+  },
+  {
+    "name": "Bombe Puante",
+    "category": "commune",
+    "traits": [
+      "Magnitude 1",
+      "Non Variable",
+      "Résistance (Persévérance)"
+    ],
+    "effectShort": "Un gaz empoisonné recouvre le personnage.",
+    "effect": "Le sort asperge la créature ciblée d’un gaz nauséabond pendant 1d6 Rounds, lui infligeant un malus de -25 % à tous ses tests d’interaction sociale (Influence, Négoce, etc.). À chaque Round, la cible doit réussir un test de Résistance ou subir 1D4 dégâts. En cas de Maladresse au test, l’odeur incommode tellement la cible que celle demeure sans connaissance pour la durée du sort.",
+    "cult": []
+  },
+  {
+    "name": "Bond",
+    "category": "commune",
+    "traits": [
+      "Toucher",
+      "Résister (Esquive)"
+    ],
+    "effectShort": "Pour chaque point de Magnitude investi, la cible peut sauter de 2 m plus loin ou plus haut.",
+    "effect": "Pour chaque point de Magnitude investi, la cible du sort peut sauter de 2 m plus loin ou plus haut. Si la cible n’est pas consentante et qu’elle rate un test de Résistance, elle subira ensuite les dégâts normaux d’une chute lorsqu’elle retombera à terre.",
+    "cult": []
+  },
+  {
+    "name": "Bouclier Spirituel",
+    "category": "commune",
+    "traits": [
+    ],
+    "effectShort": "Protège le lanceur contre les esprits hostiles.",
+    "effect": "Ce sort forme une barrière magique qui protège le lanceur d’une perte de Point de Magie due à une attaque réussie lors d’un Combat Spirituel (page 123). Chaque point de Magnitude réduit de un les dommages infligés par l’esprit attaquant.",
+    "cult": []
+  },
+  {
+    "name": "Chemin Dégagé",
+    "category": "commune",
+    "traits": [
+      "Toucher"
+    ],
+    "effectShort": "Dégage le chemin du lanceur dans des broussailles denses.",
+    "effect": "Le lanceur se déplace à travers la végétation, même la plus enchevêtrée et tortueuse, comme s’il était sur une route dégagée. Pour chaque point supplémentaire de Magnitude, il peut emmener une personne avec lui.",
+    "cult": []
+  },
+  {
+    "name": "Chuchoteur",
+    "category": "commune",
+    "traits": [
+      "Magnitude 2",
+      "Non Variable",
+      "Toucher"
+    ],
+    "effectShort": "Le lanceur calme un animal perturbé en lui chuchotant à l’oreille.",
+    "effect": "Le lanceur chuchote dans l’oreille d’un animal perturbé pour le calmer. Si l’animal est sous l’influence d’un sort tel que Peur, il a droit à un nouveau test de Résistance (Persévérance) pour annuler l’effet du sort.",
+    "cult": []
+  },
+  {
+    "name": "Colle",
+    "category": "commune",
+    "traits": [
+      "Toucher",
+      "Zone"
+    ],
+    "effectShort": "Couvre une zone d’une glu extrêmement collante",
+    "effect": "Chaque point de Magnitude de ce sort permet de couvrir une zone d’1 cm² avec une glu très collante. Si une créature marche sur cette glu, elle doit réussir un test d’Athlétisme contre la Magnitude du sort x 10 % pour éviter d’être collée sur place pendant un round. Elle doit effectuer ce test à chaque round pour se décoller. Le sort peut également réparer des objets, une épée brisée par exemple : si jamais le meneur de jeu désire vérifier si l’objet réparé ne se casse pas à nouveau, celui-ci aura une chance égale à Magnitude x 10 % de rester indemne.",
+    "cult": []
+  },
+  {
+    "name": "Communication animale",
+    "category": "commune",
+    "traits": [
+      "Magnitude 3",
+      "Non Variable"
+    ],
+    "effectShort": "Le lanceur peut parler à n’importe quel animal à 10 m ou moins de lui.",
+    "effect": "Le lanceur peut parler à un animal qui est à 10 mètres ou moins de lui. Cette communication étant verbale, le lanceur doit être capable de parler et d’être entendu par l’animal ciblé.",
+    "cult": []
+  },
+  {
+    "name": "Communication Mentale",
+    "category": "commune",
+    "traits": [
+    ],
+    "effectShort": "Permet une communication mentale avec une cible par point de Magnitude.",
+    "effect": "Ce sort peut affecter une cible par point de Magnitude. Un lien télépathique est créé entre le lanceur et ses cibles, mais les cibles ne peuvent pas communiquer entre elles par télépathie. Les mots transmis par télépathie doivent être chuchotés et l’esprit du destinataire les entendra directement dans le langage utilisé pour les prononcer.",
+    "cult": []
+  },
+  {
+    "name": "Confusion",
+    "category": "commune",
+    "traits": [
+      "Magnitude 2",
+      "Non Variable",
+      "Résistance (Persévérance)"
+    ],
+    "effectShort": "Perturbe la cible de façon à ce qu’elle ne puisse attaquer.",
+    "effect": "La cible ne peut lancer aucun sort et n’a le droit d’effectuer que des actions non offensives : fuite, esquive, parade… Elle ne peut pas attaquer à moins d’avoir été préalablement agressée.\nCe sort est efficace contre les humanoïdes et les créatures naturelles, mais n’affecte pas les esprits ou les créatures magiques telles que les dragons.",
+    "cult": []
+  },
+  {
+    "name": "Contrattaque",
+    "category": "commune",
+    "traits": [
+      "Magnitude 2",
+      "Non Variable"
+    ],
+    "effectShort": "Autorise une contrattaque comme Réaction supplémentaire.",
+    "effect": "Ce sort reste inactif jusqu’à ce que la cible soit attaquée. Après avoir été attaquée, la cible peut, à la suite de sa Réaction habituelle, effectuer une contrattaque, qui est une Action supplémentaire gratuite.",
+    "cult": []
+  },
+  {
+    "name": "Contremagie",
+    "category": "commune",
+    "traits": [
+      "Instantané"
+    ],
+    "effectShort": "Utilisé en combat comme une réaction, ce sort dissipe automatiquement dans son rayon d’action toute magie lancée dont la Magnitude est inférieure à la sienne.",
+    "effect": "La Contremagie est utilisable uniquement en tant que Réaction, et seulement si le sort que veut contrer le personnage est lancé dans le rayon d’action de la Contremagie. Une Contremagie réussie dissipe le sort adverse et annule ses effets. Tant que la Magnitude de la Contremagie égale ou dépasse celle du sort ciblé, celui-ci est contré.",
+    "cult": []
+  },
+  {
+    "name": "Coordination",
+    "category": "commune",
+    "traits": [
+      "Toucher"
+    ],
+    "effectShort": "+ 2 par point de Magnitude à l’initiative, + 10 % par point de Magnitude à l’Esquive et l’Athlétisme.",
+    "effect": "Pour chaque point de Magnitude de ce sort, la cible augmente son initiative de +2, que ce soit pour lancer des sorts ou combattre, et reçoit un bonus de +10 % à la compétence Esquive ainsi qu’aux tests d’Athlétisme basés sur la DEX.",
+    "cult": []
+  },
+  {
+    "name": "Création de Charmes",
+    "category": "commune",
+    "traits": [
+      "Permanent"
+    ],
+    "effectShort": "Crée des objets magiques contenant des sorts de Magie Commune.",
+    "effect": "Un Charme est un objet physique qui contient un ou plusieurs sorts de Magie Commune. Il peut être un collier avec un sort de Confusion 4, une épée runique contenant un sort d’Amélioration d’Arme 2 ou même un poème écrit sur une feuille de papier qui fournit un sort de Protection 1.\nPour créer un Charme, le personnage doit posséder, à la même Magnitude, Création de Charmes ainsi que le sort à insérer.\nL’objet où sera placé le Charme doit être préparé et en contact avec le lanceur pendant toute la durée de l’incantation.\nSi le lanceur dépense un Point d’Amélioration au moment de la création, le sort contenu dans le Charme sera réutilisable. Autrement, le Charme disparaitra une fois le sort lancé.\nUn sort contenu dans un Charme est utilisé comme tout autre sort que son possesseur connait. Il est lancé avec la compétence de Magie Commune et il est alimenté par les Points de Magie de son possesseur.\nLe temps requis pour créer un Charme à usage unique est d’une heure par point de Magnitude du sort à inscrire. La création de Charmes réutilisables prend trois heures par point de Magnitude.\nLes Charmes sont des objets communs, et si l’objet est détruit, le Charme est détruit.",
+    "cult": []
+  },
+  {
+    "name": "Création de Potions",
+    "category": "commune",
+    "traits": [
+      "Permanent"
+    ],
+    "effectShort": "Crée des potions contenant des sorts de Magie Commune.",
+    "effect": "Les Potions sont des liquides contenant un ou plusieurs sorts de Magie Commune. La Magnitude du sort de Création de Potion doit au moins égaler la Magnitude du sort le plus puissant à placer dans la Potion.\nLa potion est à usage unique et n’agit que si elle est bue d’un trait.\nLa potion fonctionne automatiquement, sans que le buveur ait besoin de dépenser de Points de Magie.\nPar contre, l’enchanteur doit connaitre le sort à la Magnitude à laquelle il effectue l’enchantement, et doit aussi dépenser les Points de Magie du sort à introduire dans la potion.\nLe cout des ingrédients nécessaires à la fabrication de la potion est de 1 ducat par point de Magnitude.\nPour créer la potion, l’enchanteur doit réussir des jets de Magie Commune pour chaque sort placé dans la potion puis un jet de Connaissance (Création de Potions). S’il échoue à l’un des tests, la potion est gâchée et les ingrédients sont perdus.\nLa fabrication de la potion prend une heure par point de Magnitude du ou des sorts à introduire.\nLa potion doit être contenue dans un récipient hermétiquement fermé ou elle s’évaporera, perdant un point de Magnitude par semaine.",
+    "cult": []
+  },
+  {
+    "name": "Création de Réserves de Points de Magie",
+    "category": "commune",
+    "traits": [
+      "Permanent"
+    ],
+    "effectShort": "Crée une réserve de Points de Magie qui pourront être utilisés plus tard à la place des Points de Magie du lanceur.",
+    "effect": "Le lanceur peut créer un objet possédant des capacités de stockage de Points de Magie, ce qui permet d’avoir accès à une Réserve de Points de Magie supplémentaires.\nLes cristaux sont habituellement utilisés du fait de leur solidité ; en termes de jeu, considérez-les comme incassables. Le sort peut aussi être appliqué à un Charme, comme une épée contenant un Charme d’Amélioration d’Arme 2, afin de fournir une réserve de Points de Magie servant à lancer le sort.\nLa création d’une réserve de Points de Magie demande une heure par Point de Magie stocké. Pour chaque point de Magnitude investi, un Point de Magie peut être stocké. Le lanceur doit fournir ses propres Points de Magie à l’objet pour que le sort fonctionne. Le montant de Points de Magie mis dans l’objet à ce moment détermine le nombre maximum que celui-ci peut stocker. Il ne sera plus possible de modifier ce montant par la suite.\nCes Points de Magie sont réutilisables uniquement si un Point d’Amélioration a été dépensé au lancement du sort. Dans ce cas, l’utilisateur de l’objet peut le recharger instantanément à partir de ses propres Points de Magie.\nSi l’objet est détruit, les points de magie sont relâchés, sans conséquence sur les environs.",
+    "cult": []
+  },
+  {
+    "name": "Culbute",
+    "category": "commune",
+    "traits": [
+      "Instantané", "Magnitude 2",
+      "Résistance (Endurance)", "Non Variable"
+    ],
+    "effectShort": "La cible qui rate son jet de Résistance est renversée.",
+    "effect": "La cible qui rate son jet de Résistance tombe à la renverse : elle subira un malus de -25 % à son test de combat tant qu’elle restera à terre",
+    "cult": []
+  },
+  {
+    "name": "Daredard",
+    "category": "commune",
+    "traits": [
+      "Magnitude 2", "Toucher",
+      "Déclenché", "Non Variable"
+    ],
+    "effectShort": "+ 3 dégâts, + 25 % à une compétence de Combat à Distance.",
+    "effect": "Ce sort s’applique à un projectile et se déclenche lorsque celui-ci est tiré ou lancé. Le tireur reçoit alors un bonus de +25 % à la compétence de Combat à Distance et le projectile inflige +3 Points de Dégât. Un missile sous l’effet de Daredard ne peut bénéficier ni de Flèche de Feu, page 114, ni de Projectiles Multiples",
+    "cult": []
+  },
+  {
+    "name": "Défense Acharnée",
+    "category": "commune",
+    "traits": [
+      "Magnitude 2", "Non Variable"
+    ],
+    "effectShort": "Octroie une réaction supplémentaire.",
+    "effect": "Ce sort s’active lorsque la cible est attaquée. Après avoir utilisé sa Réaction habituelle, la cible reçoit alors une Réaction supplémentaire gratuite.",
+    "cult": []
+  },
+  {
+    "name": "Défense Renforcée",
+    "category": "commune",
+    "traits": [
+      "A Distance"
+    ],
+    "effectShort": "Chaque point de Magnitude offre une réaction défensive supplémentaire.",
+    "effect": "Pour chaque point de Magnitude investi, la cible peut effectuer une autre Réaction défensive de combat rapproché à chaque round.",
+    "cult": []
+  },
+  {
+    "name": "Démoralisation",
+    "category": "commune",
+    "traits": [
+      "Magnitude 2", "Résistance",
+      "(Persévérance) Non Variable"
+    ],
+    "effectShort": "Si le sort est lancé avant un combat, sa cible perd sa volonté de combattre. Au cours d’un combat, les compétences de combat de la cible sont divisées par deux et elle ne pourra pas lancer de sorts offensifs.",
+    "effect": "Ce sort affaiblit l’ardeur combattive de la cible, qui voit toutes ses compétences d’armes réduites de moitié et qui ne peut lancer aucun sort offensif. Si ce sort prend effet avant le début du combat, la cible essaiera d’éviter le combat en fuyant ou en se rendant. Les effets de ce sort sont automatiquement annulés par le sort Fanatisme, page 114, et vice-versa.",
+    "cult": []
+  },
+  {
+    "name": "Détecter X",
+    "category": "commune",
+    "traits": [
+      "Concentration", "Non Variable"
+    ],
+    "effectShort": "« X » peut être une substance ou un groupe d’êtres vivants.",
+    "effect": "Détecter X regroupe plusieurs sorts similaires, qui permettent de localiser la cible la plus proche à portée et correspondant aux critères. Cet effet est stoppé par toute substance telle que le métal, la terre ou la pierre de plus de 1 mètre d’épaisseur. Le sort est aussi partiellement bloqué par Contremagie, page 110 : le lanceur sait que la cible est protégée par le bouclier de Contremagie et qu’elle est quelque part à portée du sort, mais ne connait pas son emplacement exact.\nVoici les différents sorts de Détection :\nDétecter Ennemi : localise une créature qui désire nuire au Lanceur de Sort\nDétecter Magie : localise l’objet, la créature magique ou le sort actif le plus proche.\nDétecter Espèce : localise la créature la plus proche appartenant à l’espèce spécifiée. Exemples de ce sort : Détecter Gobelin, Détecter Rhinocéros, Détecter Elfe…\nDétecter Substance : localise la substance du type spécifié la plus proche. Exemples : Détecter Charbon, Détecter Or…",
+    "cult": []
+  },
+  {
+    "name": "Déverrouillage",
+    "category": "commune",
+    "traits": [
+      "Toucher", "Instantané"
+    ],
+    "effectShort": "Le lanceur a une chance de déverrouiller une serrure égale à la Magnitude du sort x 20 %, moins tout modificateur dû à la complexité de la serrure.",
+    "effect": "Le lanceur a une chance de déverrouiller une serrure égale à la Magnitude du sort x 20 %, moins tout modificateur dû à la complexité de la serrure. Si le sort est lancé sur une serrure avec un sort actif de Verrouillage, un test d’Opposition est effectué : Magnitude du Déverrouillage x 20 % contre la Magnitude du Verrouillage x 20 %.",
+    "cult": []
+  },
+  {
+    "name": "(Arme) Véritable",
+    "category": "divine",
+    "traits": [
+      "Durée 15", "Magnitude 3",
+      "À distance"
+    ],
+    "effectShort": "Double les dégâts de l’arme.",
+    "effect": "Lancé sur le type d’arme de mêlée spécifié, ce sort double les dés de dégât normaux de cette arme. Les autres modificateurs, comme le Modificateur de Dégât, ne sont pas affectés. L’utilisateur de l’arme doit lancer deux fois les dés de dégât de l’arme puis faire la somme des deux résultats.",
+    "cult": "Guerre"
+  },
+  {
+    "name": "Absorption",
+    "category": "divine",
+    "traits": [
+      "Durée 15", "Magnitude 1",
+      "Progressif", "Toucher"
+    ],
+    "effectShort": "Absorbe les sorts visant la cible du sort ou son\néquipement, transformant leur énergie magique\nen Points de Magie utilisables par la cible.",
+    "effect": "Ce sort absorbe les sorts dirigés vers la cible ou son équipement, convertissant leur énergie magique en points de magie utilisables par la cible. Une fois lancée sur une cible, Absorption tente d’aspirer les effets de tout sort dirigé contre celle-ci. Il n’a aucun effet sur les sorts qui affectent déjà un personnage. Les résultats de l’Absorption dépendent de sa Magnitude et de celle du sort qui arrive : consultez le tableau ci-dessous pour plus de détail. Tout sort absorbé par Absorption est annulé et n’a aucun effet.\n\nLa Magnitude du sort attaquant est…\nEffet\nInférieure ou égale à la Magnitude de l’Absorption.\nLe sort attaquant est absorbé et l’Absorption subsiste.\nSupérieure d’un point ou plus à la Magnitude de l’Absorption.\nL’Absorption est éliminée et le sort attaquant prend effet.\n\nUn personnage ne peut accumuler plus de Points de Magie que son POU pendant que l’Absorption est active ; les Points de Magie en excès gagnés grâce à l’Absorption disparaissent. Ce sort est incompatible avec Réflexion, Bouclier et Blocage Spirituel.",
+    "cult": ["Terre", "Nuit"]
+  },
+  {
+    "name": "Apparence Radieuse",
+    "category": "divine",
+    "traits": [
+      "Magnitude 2", "Durée 1 Jour"
+    ],
+    "effectShort": "+50 % Influence, les créatures qui détestent la lumière ont un malus de -25 % contre la cible",
+    "effect": "Une aura de lumière et de pouvoir émane de la cible, qui obtient +50 % à tous ses jets d’Influence pour la durée du sort. Les créatures qui détestent la lumière subissent un malus de -25 % quand elles attaquent la cible.",
+    "cult": ["Soleil"]
+  },
+  {
+    "name": "Appel (Élémentaire)",
+    "category": "divine",
+    "traits": [
+      "Magnitude 1",
+      "Permanent",
+      "Progressif"
+    ],
+    "effectShort": "Invoque et lie un élémentaire au service du lanceur pour la durée du sort.",
+    "effect": "Le lanceur invoque depuis un autre plan d’existence un élémentaire dont la taille dépend de la Magnitude du sort.\n1 = Petit, 2 = Moyen, 3= Grand et 4 = Énorme (Pour plus de détails sur les élémentaires, voir page 183).\nL’élémentaire reste sous le contrôle du lanceur jusqu’à ce qu’il soit tué ou que le sort d’Appel soit dissipé.\nPour que lancement du sort soit réussi, un volume de matière égal à celui de l’élémentaire et correspondant à son type est nécessaire.\nExemple. Une grande ondine (élémentaire d’eau) requiert un volume d’eau d’au moins 50 m3.",
+    "cult": ["Tout culte avec une affinité élémentaire"]
+  },
+  {
+    "name": "Appel\n(Mort-Vivant)",
+    "category": "divine",
+    "traits": [
+      "Magnitude 1",
+      "Permanent",
+      "Progressif"
+    ],
+    "effectShort": "Réanime un corps humain mort et le transforme en créature mort-vivante.",
+    "effect": "Ce sort réanime un cadavre humain et le change en une créature mort-vivante dont le type varie selon la Magnitude :\n1 = Squelette,\n2 = Zombie,\n5= Goule,\n8= Vampire.\nLa créature reste sous le contrôle du prêtre jusqu’à sa destruction ou la dissipation du sort.\n",
+    "cult": ["Monstre", "Mal", "Mort"]
+  },
+  {
+    "name": "Attaque Mentale",
+    "category": "divine",
+    "traits": [
+      "Instantané", "Magnitude 1", "Progressif", "À distance", "Résistance (Persévérance)"
+    ],
+    "effectShort": "Inflige une pénalité à l’INT de la victime égale à sa Magnitude.",
+    "effect": "Ce sort applique à l’INT de la victime un malus égal à la Magnitude du sort. L’effet dure un nombre de jours égal au CHA actuel du lanceur.",
+    "cult": ["Lune"]
+  },
+  {
+    "name": "Berserk",
+    "category": "divine",
+    "traits": [
+      "Durée 15", "Magnitude 2", "Toucher"
+    ],
+    "effectShort": "Une rage sanguinaire submerge le bénéficiaire du sort. Celui-ci agit sans tenir compte de sa propre sécurité et de ses allégeances, mais son endurance et son aptitude au combat sont décuplées.",
+    "effect": "Animée par une rage sanguinaire, la cible agit sans tenir compte de sa propre sécurité, mais son endurance et son aptitude au combat sont décuplées.\nPour la durée du sort, la cible :\nréussit automatiquement tout test d’Endurance et de Fatigue ;\nne peut s’évanouir ;\nreçoit un bonus de +50 % à ses tests de Combat Rapproché.\nPar contre, elle ne pourra pas parer, esquiver ou lancer des sorts. Normalement, la cible demeure sous l’influence de Berserk pour les 15 minutes que dure le sort, mais le meneur de jeu peut l’autoriser à mettre fin aux effets du sort en réussissant un test de Persévérance avec un modificateur de -50 %. À la fin du sort, la cible devient automatiquement Fatiguée.\nBerserk ne peut être combiné avec Fanatisme (page 114) : Berserk aura toujours la préséance.",
+    "cult": ["Bêtes", "Guerre"]
+  },
+  {
+    "name": "Blocage Spirituel",
+    "category": "divine",
+    "traits": [
+      "Durée 15", "Magnitude 1", "Progressif", "Toucher"
+    ],
+    "effectShort": "Bloque les attaques des esprits à l’encontre du lanceur.",
+    "effect": "La cible d’un Blocage Spirituel peut seulement être touchée par des esprits avec un POU suffisamment élevé pour passer outre la Magnitude du sort, comme indiqué dans le tableau suivant.\nMagnitude de Blocage Spirituel\nLa cible peut seulement être blessée par des esprits avec…\n1\nPOU de 10 ou plus\n2\nPOU de 17 ou plus\n3\nPOU de 26 ou plus\n4\nPOU de 37 ou plus\n5\nPOU de 50 ou plus\n6\nPOU de 65 ou plus\n7\nPOU de 82 ou plus\n8\nPOU de 101 ou plus\n\nUn esprit incapable de toucher un personnage sous l’effet de Blocage Spirituel ne pourra pas l’attaquer ou le blesser, même avec des attaques à distance (comme des javelots spectraux). Un sort lancé par l’esprit vers la cible sera bloqué à moins que sa Magnitude ne surpasse celle du Blocage Spirituel. Blocage Spirituel est incompatible avec Absorption, Réflexion et Bouclier.",
+    "cult": ["Tous"]
+  },
+  {
+    "name": "Bouclier",
+    "category": "divine",
+    "traits": [
+      "Durée 15", "Magnitude 1", "Progressif"
+    ],
+    "effectShort": "+1 Point d’Armure et +10 % aux résistances aux attaques magiques par point de Magnitude.",
+    "effect": "Le lanceur est protégé contre les attaques physiques et magiques. Chaque point de Magnitude lui procure un point d’armure supplémentaire ainsi qu’un bonus de +10 % à tout test qu’il doit effectuer pour résister à des effets magiques néfastes. Un Bouclier de Magnitude 4 procure au lanceur 4 points d’armure et un bonus de +40 %. Ces bonus sont cumulables avec ceux fournis par d’autres sorts, ainsi qu’avec toute armure que porte le lanceur. Bouclier est incompatible avec Absorption, Réflexion et Blocage Spirituel.",
+    "cult": ["Guerre"]
+  },
+  {
+    "name": "Contact Mortel",
+    "category": "divine",
+    "traits": [
+      "Magnitude 4", "Toucher", "Instantané", "Résistance (Persévérance)"
+    ],
+    "effectShort": "Tue la victime qui rate son jet de Résistance.",
+    "effect": "La victime touchée par le lanceur meurt si elle rate son jet de Résistance. Ce sort est souvent utilisé pour détruire les morts-vivants puissants.",
+    "cult": ["Mort"]
+  },
+  {
+    "name": "Création d’Idoles",
+    "category": "divine",
+    "traits": [
+      "Magnitude 4"
+    ],
+    "effectShort": "Crée une idole magique de la divinité.",
+    "effect": "Pour que le sort fonctionne, une représentation du dieu du lanceur valant 100 ducats doit être fabriquée. Un prêtre doit ensuite lire en présence de cette représentation un texte sacré de la divinité relatant des mythes la concernant. La représentation devient alors une idole :\nLes sorts de la Divinités sont stockés dans l’idole, et les prêtres ainsi que les initiés peuvent donc utiliser l’idole pour récupérer leurs sorts ;\nLes membres laïques peuvent recevoir des visions lorsqu’ils touchent l’idole. S’ils sont exposés suffisamment fréquemment à de telles visions, leur compétence Religion sera augmentée de 1D10 %.",
+    "cult": ["Tous"]
+  },
+  {
+    "name": "Création d’Objets Bénis",
+    "category": "divine",
+    "traits": [
+      "Zone spéciale", "Magnitude 1", "Permanent", "Progressif"
+    ],
+    "effectShort": "Permet au lanceur de créer des objets contenant des sorts de Magie divine, bénis par un prêtre avec le pouvoir de la divinité du culte.",
+    "effect": "Ce sort permet à son lanceur de créer des objets contenant des sorts de Magie Divine bénis par un prêtre du culte. Seuls les prêtres et les Grands prêtres peuvent créer des objets bénis. L’enchanteur oublie les sorts avec lesquels il a béni l’objet.\nLe possesseur de l’objet peut lancer le ou les sorts qui bénissent l’objet, mais une fois le pouvoir de l’objet déchargé, il doit être de nouveau consacré dans un temple du culte. Cette consécration prend un nombre d’heures égal à la Magnitude du sort. Si la Magnitude du sort est supérieure à deux, l’équipe en charge de la consécration doit comprendre au moins un prêtre. Le porteur doit être un membre du culte qui a créé l’objet béni.\nLes objets bénis sont protégés par la divinité du culte et ne peuvent être détruits par des moyens non magiques.\nReliques\nCe sont les os, les cheveux, ou les habits d’un Saint d’un culte, de rang prêtre au minimum. Chaque élément (vêtement, partie du corps) contient un des sorts que la personne connaissait de son vivant.\nLes Reliques sont créées au moment de la mort du Saint. Le porteur de la relique peut lancer le sort, qui est réutilisable après avoir été consacré à nouveau (voir plus haut).\nLe porteur doit être membre du même culte que le Saint et doit être dans les bonnes grâces de la divinité.\nLes reliques sont protégées par la divinité du culte et ne peuvent être détruites par des moyens non magiques.\n",
+    "cult": ["Tous"]
+  },
+  {
+    "name": "Création de Vaisseaux de Cristal",
+    "category": "divine",
+    "traits": [
+      "Magnitude 4", "Durée le temps du voyage"
+    ],
+    "effectShort": "Crée un vaisseau magique qui vole jusqu’à la destination désignée.",
+    "effect": "Le sort fait apparaitre un vaisseau magique qui vogue à travers les airs vers une destination désignée à l’avance par le lanceur. La divinité du lanceur doit connaitre cette destination, même si le lanceur n’a pas besoin de s’y être déjà rendu, et le vaisseau disparait une fois qu’il a atteint la destination et que ses passagers ont débarqué. Le vaisseau a la taille d’un navire marchand (voir page 82) et ne possède pas d’arme. Si le vaisseau se déplace de lui-même vers la destination à une vitesse de 100 km par jour, le lanceur doit diriger mentalement toute manœuvre plus précise.",
+    "cult": ["Marchand"]
+  },
+  {
+    "name": "Déroute",
+    "category": "divine",
+    "traits": [
+      "Magnitude 3"
+    ],
+    "effectShort": "L’unité ennemie ciblée panique.",
+    "effect": "L’unité de guerriers ciblée, comportant 100 individus au maximum, doit effectuer un test de Persévérance. En cas d’échec, elle perd toute sa cohésion et se débande. Une unité en déroute se déplace au double de sa vitesse de mouvement normale et cherche à s’éloigner du lanceur, idéalement pour gagner un endroit sûr. L’unité ne se défendra pas, mais elle attaquera les unités ennemies sur son chemin, afin de se frayer plus facilement un passage.",
+    "cult": ["Guerre"]
+  },
+  {
+    "name": "Dispersion de la Magie",
+    "category": "divine",
+    "traits": [
+      "Instantané", "Magnitude 1", "Progressif", "A distance"
+    ],
+    "effectShort": "Dispersion de la Magie élimine une combinaison de sorts dont la somme des Niveaux de Magnitude est égale à sa Magnitude, en commençant par le sort le plus puissant.",
+    "effect": "Dispersion de la Magie peut être lancée sur une cible quelconque ou sur un sort spécifique. Dispersion de la Magie élimine une combinaison de Niveaux de Magnitude dont la somme est égale à sa propre Magnitude, en commençant par le sort le plus puissant qui affecte la cible. Si aucun sort ne peut être éliminé (parce que la Magnitude du sort visé est trop importante), Dispersion de la Magie se termine immédiatement et aucun autre sort ne peut être interrompu. Un sort ne peut être partiellement éliminé : une cible sous l’effet d’un sort dont la Magnitude est supérieure à celui de Dispersion de la Magie restera intacte. Le lanceur peut aussi lancer Dispersion de la Magie sur un sort spécifique.\nAussi longtemps que la Magnitude de Dispersion de la Magie est égale ou supérieure à celui du sort ciblé, ce dernier est contré.\nDispersion de la Magie peut être utilisée en Réaction, mais seulement si le sort que désire contrer le personnage est lancé à portée de Dispersion de la Magie. Une Dispersion de la Magie réussie annule le sort adverse.\n",
+    "cult": ["Tous"]
+  },
+  {
+    "name": "Disque Solaire",
+    "category": "divine",
+    "traits": [
+      "Magnitude 1", "A Distance", "Résistance (Esquive)"
+    ],
+    "effectShort": "Ce sort aveugle l’adversaire qui rate son test de Résistance.",
+    "effect": "Un disque de lumière aveuglante surgit des mains du lanceur : ceux qui voient le disque doivent effectuer un jet de Résistance pour ne pas être aveuglés pendant 1D4 minutes. Au contact du disque, la glace fond, même la glace magique si sa Magnitude est inférieure de 3 à celle du sort. Toute créature touchée par le disque reçoit +50 % de résistance au froid.",
+    "cult": ["Feu","Soleil"]
+  },
+  {
+    "name": "Divination",
+    "category": "divine",
+    "traits": [
+      "Instantané", "Magnitude 1", "Progressif"
+    ],
+    "effectShort": "Pour chaque point de Magnitude, le lanceur peut poser une question à sa divinité, qui répondra de son mieux.",
+    "effect": "Pour chaque point de Magnitude, le lanceur peut poser une question à sa divinité, à laquelle celle-ci répondra de son mieux. Une divinité ne peut répondre qu’à des questions dont elle connait la réponse et qui correspondent à son domaine d’influence. Par exemple, un Dieu de la Montagne saura exactement ce qui se trame dans ses replis à un moment donné, mais n’aura aucune réponse concernant les océans.\nLes dieux demanderont aussi communément pour chaque question posée le sacrifice d’un animal ou d’un objet précieux valant au moins un ducat. Certains dieux particulièrement cruels et sanguinaires demanderont que soit versé le sang d’êtres conscients.",
+    "cult": ["Tous"]
+  },
+  {
+    "name": "Éclair",
+    "category": "divine",
+    "traits": [
+      "Instantané", "Magnitude 1", "Progressif", "A distance", "Résistance (Esquive)"
+    ],
+    "effectShort": "Crée un trait de foudre causant 1D6 de dégâts par point de Magnitude.",
+    "effect": "Un trait de foudre crépitant jaillit de la main du lanceur et se dirige vers une cible. Si le trait n’est pas esquivé, chaque point de Magnitude du sort inflige 1D6 dégâts. L’armure n’a aucun effet contre ces dégâts et ceux-ci comptent comme étant à la fois magiques et électriques.",
+    "cult": ["Tempêtes"]
+  },
+  {
+    "name": "Effigie de Cire",
+    "category": "divine",
+    "traits": [
+      "Magnitude 4", "Résistance (Persévérance)"
+    ],
+    "effectShort": "Ce sort enchante une petite représentation en cire de la victime.",
+    "effect": "Ce sort enchante une petite représentation en cire de la victime. Les sorts qui sont lancés sur l’effigie affectent alors la victime, quelle que soit la distance entre l’effigie et la victime. Le lanceur n’a pas besoin d’avoir vu ou rencontré la victime, car c’est le pouvoir de son dieu qui fournit le lien. Une fois par jour, la victime peut subir des dommages physiques si des aiguilles sont enfoncées dans l’effigie, chaque aiguille infligeant 1D4 dégâts. Le lanceur peut tenter de tuer immédiatement la victime en cassant la tête de l’effigie. Dans ce cas, la victime a droit d’un jet de Résistance : elle meurt en cas d’échec, mais en cas du succès, l’effigie n’a plus d’influence sur elle.",
+    "cult": ["Faquin"]
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  },
+  {
+    "name": "",
+    "category": "",
+    "traits": [
+    ],
+    "effectShort": "",
+    "effect": "",
+    "cult": []
+  }
+]
