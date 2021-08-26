@@ -27,6 +27,7 @@ const SpellSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    special: {},
     cult: [
         {
             type: String

@@ -530,192 +530,202 @@
     "cult": ["Faquin"]
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Animer (Substance)",
+    "category": "profane",
     "traits": [
+      "Concentration"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Chaque point de Magnitude anime un point de TAI\nd’une substance inanimée.",
+    "effect": "Ce sort permet au sorcier d’animer la substance indiquée, à raison d’un point de TAI par point de Magnitude. Le sorcier amène la substance à se mouvoir et à interagir maladroitement (Mouvement de 1 m pour trois Niveaux de Magnitude).\nLes chances de succès de la substance dans un test de Compétence Physique sont égales à la valeur du sorcier dans cette compétence divisée par deux (avant d’appliquer d’éventuels modificateurs).\nSi le sort approprié de Former (Substance), page 163, est lancé immédiatement après celui-ci, le lanceur pourra manipuler la substance animée plus finement. Dans ce cas, on considère que la substance utilise la valeur des Compétences du lanceur pour les activités physiques.\nCe sort ne peut cibler que de la matière inanimée.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Baume Magique",
+    "category": "profane",
     "traits": [
+      "Instantané", "Toucher"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Pour chaque point de Magnitude de ce sort, le lanceur peut soigner un PV par Round pendant lequel le sort est appliqué.",
+    "effect": "Ce sort doit être lancé sur un personnage blessé. Il accélère grandement le rythme de guérison naturelle de la cible.\nChaque point de Magnitude de ce sort redonne un PV par Round de combat pendant lequel ce sort agit. Traiter les Blessures ne peut être utilisé pour rattacher ou faire repousser un membre amputé et ne fonctionne pas sur une Blessure Grave.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Boomerang",
+    "category": "profane",
     "traits": [
+
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Ce sort protecteur fait écran aux magies hostiles ciblant le lanceur et a une chance de les renvoyer vers l’attaquant.",
+    "effect": "Ce sort protège le sorcier de toute magie hostile, qui pourra même être renvoyée à son lanceur.\nBoomerang n’affecte que les sorts qui ciblent spécifiquement l’utilisateur et qui disposent du trait Résistance. De tels sorts peuvent affecter le personnage protégé, mais si la cible résiste (réussite du jet de Résistance), ils sont renvoyés à leur lanceur, pour peu que la Magnitude du sort ne dépasse pas celui de Boomerang.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Brillance",
+    "category": "profane",
     "traits": [
+
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Ce sort fait apparaitre un point de lumière sur une substance solide.",
+    "effect": "Ce sort fait apparaitre un point de lumière éclatante sur une substance solide. Le sort crée par défaut de la lumière sur 1 mètre de rayon, procurant le même éclairage qu’une bougie. Chaque Niveau supplémentaire de Magnitude augmente le rayon d’effet d’un mètre. La luminosité du sort devient équivalente à celle d’une Torche à une Magnitude de 3, à celle d’un Feu de Camp à une Magnitude 5, et à celle d’un Feu de Joie à une Magnitude 10.\nCe sort peut être lancé sur les yeux d’un ennemi. Dans ce cas, le sort gagne aussi le trait Résistance (Esquive). Si la cible n’arrive pas à résister au sort, elle subira un malus à tous ses tests d’attaque, de parade et d’esquive, ainsi qu’à toutes les compétences dépendant de la vision. Ce malus est égal à 5 x la Magnitude du sort et dure jusqu’à ce que le sort se termine ou soit dissipé.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Création D’Avatar (Divinité)",
+    "category": "profane",
     "traits": [
+      "Toucher"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "La cible du sort prend la forme magique d’une divinité.",
+    "effect": "Ce sort peut être lancé sur une cible autre que le lanceur. La cible prend la forme magique de la Divinité pour la durée du sort, et reçoit les pouvoirs suivants :\n+25 % dans toutes les compétences enseignées par le culte de la Divinité.\nPour chaque point de Magnitude du sort au-delà du premier, la cible peut apprendre et lancer un point de sort de Magie Commune ou Divine enseigné par la divinité. Un sort de magie divine ne peut être utilisé qu’une seule fois et un sort de Magie Commune doit être payé avec les points de magie de la cible.\nLa cible sait tout ce que sait la Divinité.\nSi jamais les adorateurs de la divinité apprennent qu’un sorcier cherche à prendre la forme de leur dieu, ils le traqueront sans relâche.\nVoici quelques exemples de conséquences malheureuses en cas de Maladresse au test de lancement du sort :\nla divinité confie à un serviteur d’Outremonde le soin de se venger du sorcier ;\nla divinité transporte le sorcier dans son domaine en Outremonde ;\nla divinité révèle le blasphème à un prêtre local et le charge de punir le sorcier coupable.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Création De Familiers",
+    "category": "profane",
     "traits": [
+      "Permanent"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Ce sort crée un compagnon magique.",
+    "effect": "Par défaut, ce sort nécessite une heure de préparatifs, coute 50 ducats en ingrédients divers, exige la dépense de 3 points d’Amélioration, et fonctionne uniquement sur un objet inanimé ou une créature à INT fixe. Certains sorciers créent des êtres artificiels tels que des Homonculus pour qu’ils deviennent leurs Familiers.\nUn sorcier peut posséder un nombre de Familiers égal à 1/2 POU, mais rares sont ceux qui en possèdent plus de deux.\nLe sorcier perd 1D6 PV lorsque son familier meurt ou est détruit. Si le sorcier meurt, le familier meurt en même temps que lui.\nLe sorcier est en contact mental constant avec son Familier sur une distance égale à 1/2 POU en kilomètres. Ce lien mental permet au sorcier de percevoir l’environnement du Familier au moyen des sens de celui-ci. Le sorcier peut aussi lancer des sorts sur le Familier comme s’il le touchait, et le Familier peut lancer n’importe quel sort qu’il connait sur son maitre.\nUn Familier obtient 2D6 INT et 2D6 POU. Si sa valeur de POU par défaut est plus importante, il peut conserver cette valeur.\nUn Familier peut percevoir son environnement à l’aide de ses sens. Un objet magique détecte le monde autour de lui à une portée égale à son POU en mètres.\nLes PV et l’espérance de vie d’un Familier correspondent à ceux d’une créature ou d’un objet normal de son type. Un Familier peut apprendre des compétences, mais seulement celles qu’il est capable d’accomplir. Ainsi, un objet Familier sera habituellement limité aux compétences magiques ou de connaissance.\nUn animal familier peut avoir au maximum 1/2 TAI du sorcier.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Création De Matrices De Sort",
+    "category": "profane",
     "traits": [
+      "Permanent"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Ce sort crée des objets contenant des sorts de Sorcellerie.",
+    "effect": "Ce sort crée des objets contenant des sorts de Sorcellerie. Toutes les matrices de sorts coutent 10 ducats en matériaux spéciaux. L’enchanteur doit payer 1 Point d’Amélioration par sort placé dans la matrice. Le porteur d’une matrice peut lancer et manipuler le sort au niveau de compétence de l’enchanteur, en utilisant ses propres Points de Magie pour l’alimenter. Les matrices de sort sont réutilisables.\nLes matrices de sorts sont des objets tout à fait normaux ; la destruction de l’objet entraine celle de la matrice. Cependant, au moment de l’enchantement, l’enchanteur peut dépenser un autre Point d’Amélioration et renforcer magiquement l’objet, doublant ainsi ses PV et d’Armure.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Création De Parchemins",
+    "category": "profane",
     "traits": [
+      "Permanent"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Crée un parchemin contenant un sort.",
+    "effect": "Les parchemins sont des objets couverts d’écritures contenant des sorts de Sorcellerie. Pour chaque point de Magnitude du sort, le parchemin coute 1 ducat en matériel : encre spéciale, support, etc.\nLe Parchemin résultant est un objet à usage unique qui, après un jet réussi de Sorcellerie, lance le sort inscrit avec les Niveaux de Manipulation utilisés lors de la création du Parchemin.\nLe lecteur peut aussi apprendre le sort inscrit grâce à un jet réussi de Sorcellerie. Dans tous les cas, le sort disparait une fois le Parchemin utilisé avec succès. En cas d’échec, le sort reste inscrit, mais son lecteur ne pourra pas effectuer une nouvelle tentative avant d’avoir fait progresser sa compétence de Sorcellerie. En cas de Maladresse, le sort s’évanouit du parchemin sans bénéfice pour le lecteur.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Développer (caractéristique)",
+    "category": "profane",
     "traits": [
+      "Toucher"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Augmente la caractéristique associée d’un montant égal à la Magnitude du Sort.",
+    "effect": "Il existe en fait sept sorts Développer, un pour chaque caractéristique.\nDévelopper permet au sorcier d’appliquer à la caractéristique spécifiée d’une cible un bonus temporaire et égal à la Magnitude du sort. Bien sûr, une créature doit posséder la caractéristique en question pour être affectée par le sort.\nAppliquer un bonus au POU n’entraine pas d’augmentation des Points de Magie de la cible.\n",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Diminuer (caractéristique)",
+    "category": "profane",
     "traits": [
+      "Résistance (Persévérance/ Endurance)", "Toucher"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Réduit la caractéristique associée d’un montant égal à la Magnitude du Sort.",
+    "effect": "Il existe sept sorts Diminuer, un pour chaque caractéristique. À l’inverse de Développer, ce sort infligera à la caractéristique spécifiée un malus temporaire égal à la Magnitude du sort. Le malus appliqué par le sort ne peut réduire une caractéristique en dessous de un. Bien sûr, une créature doit posséder la caractéristique en question pour être affectée par le sort.\nLa compétence Endurance est utilisée pour résister à l’effet de Diminuer (FOR, DEX, CON ou TAI). La compétence Persévérance sert à résister à l’effet de Diminuer (INT, POU ou CHA).\nAppliquer une diminution au POU ne réduit pas les Points de Magie de la cible et n’affecte pas tout éventuel POU dédié.\nNotez que les utilisations de ce sort ne sont pas forcément malveillantes : un voleur désireux de se faufiler dans des endroits exigus peut grandement se faciliter la tâche en utilisant un sort de Diminuer (TAI)…",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Dominer (Espèce)",
+    "category": "profane",
     "traits": [
+      "Résistance (Persévérance)"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Ce sort permet au lanceur de prendre le contrôle d’une créature appartenant à l’espèce spécifiée.",
+    "effect": "Grâce à ce sort, le lanceur peut contrôler une créature d’une espèce spécifique. Si la cible ne parvient pas à résister au sort, elle doit obéir aux ordres du lanceur pour la durée du sort.\nLe lanceur partage un lien télépathique avec la créature contrôlée. S’il ne parle pas la langue de la créature, il peut transmettre ses directives en formant une image mentale des actions qu’il veut que la créature accomplisse.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Entrave",
+    "category": "profane",
     "traits": [
+
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "-1 au Mouvement par point de Magnitude. Tous les deux points, -1 en DEX ou INT pour déterminer l’ordre d’initiative.",
+    "effect": "Chaque point de Magnitude du sort diminue le Mouvement de la cible de 2 mètres. Celle-ci voit aussi son INT ou sa DEX réduite de 1 tous les deux Niveaux de Magnitude en ce qui concerne l’ordre d’initiative.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Former (Substance)",
+    "category": "profane",
     "traits": [
+      "Instantané"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Manipule la forme de la substance spécifiée.",
+    "effect": "Il existe un nombre illimité de variantes du sort Former, une pour chaque substance imaginable, de l’acier à la fumée en passant par l’eau.\nChaque point de Magnitude permet au lanceur de modeler un point d’ENC de substance solide ou un mètre cube de substance éthérée (comme les ténèbres). Le lanceur doit être familier avec la forme qu’il désire modeler.\nUne fois que le sorcier a terminé le processus de modelage, la substance garde sa nouvelle forme. Les substances rigides, telles que l’acier, conserveront la forme prise à la fin du sort, alors que des substances plus instables comme l’eau perdront immédiatement leur forme.\nCe sort peut être utilisé pour réparer des dégâts subis par un objet. Le sorcier doit former l’objet entier et réussir un test d’Artisanat approprié ; s’il réussit, les PV maximums de l’objet sont restaurés.\nCe sort ne peut être employé que sur des substances inanimées.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Fusion",
+    "category": "profane",
     "traits": [
+      "Toucher"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Lie deux surfaces ensemble avec une FOR égale à la Magnitude + 1.",
+    "effect": "Ce sort permet de fusionner deux surfaces adjacentes de 10×10 cm (approximativement la taille d’une main d’homme). La fusion dispose d’une FOR de 1 par défaut. Chaque point de Magnitude additionnel augmentera la FOR de la fusion de +1 ou doublera la zone affectée.\nCe sort peut affecter les substances organiques et non organiques. Si le sorcier tente de fusionner un être vivant avec ce sort, le sort gagne le trait Résistance (Endurance).",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Hâte",
+    "category": "profane",
     "traits": [
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Tous les deux points, +1 en DEX ou INT pour déterminer l’ordre d’initiative.",
+    "effect": "Chaque point de Magnitude du sort augmente de 1 mètre le Mouvement de la cible. Celle-ci voit aussi son INT ou sa DEX augmentée de 1 tous les deux Niveaux de Magnitude en ce qui concerne l’ordre d’initiative, voir page 57.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Invoquer (Créature Incorporelle)",
+    "category": "profane",
     "traits": [
+      "Résistance (Persévérance)"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Ce sort permet au sorcier d’invoquer une créature d’Outremonde dans le monde matériel.",
+    "effect": "Le sorcier invoque une créature incorporelle (élémentaire, esprit, mort-vivant, etc.) dans le monde matériel. La créature n’est pas automatiquement sous le contrôle du sorcier. Si elle réussit son jet de Persévérance, elle ne sera pas contrôlée par le sorcier et pourra même se montrer hostile envers lui. Sinon, elle agira comme sous l’effet d’un sort de Dominer pour la durée du sort. La durée du sort détermine aussi le temps que doit passer la créature dans le monde matériel.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Métamorphose (X) En (Y)",
+    "category": "profane",
     "traits": [
+      "Résistance (Endurance)", "Toucher"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Transforme la cible en une créature dont la TAI moyenne égale la Magnitude du sort.",
+    "effect": "Il existe plusieurs variantes de Métamorphose, une pour chaque combinaison de créatures imaginables. Le sort ne fonctionne que sur les créatures vivantes ; les morts ou les créatures sans conscience ne peuvent pas être métamorphosés.\nLa Magnitude du sort doit être égale ou supérieure à la TAI moyenne des deux espèces spécifiées. Ainsi, transformer une souris (TAI 1) en crapaud (TAI 1) est une opération de Magnitude 1. Par contre, changer une souris (TAI 1) en lion (TAI 19) en est une de Magnitude 19.\nSi le sort est réussi, la cible sera biologiquement modifiée, gagnant les caractéristiques de FOR, de DEX, de CON et de TAI de sa nouvelle forme. Son INT, son POU et son CHA demeureront inchangés et la cible conservera sa mémoire ainsi que son savoir-faire (même si elle ne sera pas forcément en mesure d’en faire usage sous sa nouvelle forme).",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Mirage",
+    "category": "profane",
     "traits": [
+
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Ce sort crée une illusion basée sur les cinq sens.",
+    "effect": "Ce sort est l’équivalent du sort Illusion (voir page 147) pour les sorciers.\nIl crée une illusion basée sur les cinq sens. L’illusion semblera réelle et solide, à moins que la personne l’examinant ne réussisse un jet de Perception soumis à un modificateur dépendant de la Magnitude du sort. Si un observateur réussit un jet de Perception et que l’illusion est de nature à infliger des dégâts à celui qui y croit, elle ne pourra plus blesser ce personnage. Dès qu’un spectateur cesse de croire en une illusion, celle-ci lui parait immatérielle et fantomatique.\nLa Taille de l’illusion dépend aussi de la Magnitude du sort. Une illusion d’une Magnitude 1 peut prendre la forme de petits objets domestiques, tels que de fausses chaises et table, mais ne pourra prendre la forme d’un Dragon cracheur de feu.\nMagnitude\nModificateur aux tests de Perception\nType d’illusion possible\n1\n+50 %\nIncapable de bouger ou de causer des dégâts. Un peu flou et irréel aux bords. TAI maximale 10.\n2\n+25 %\nQuelques différences par rapport à l’original. Capable de bouger, mais pas de dégât. TAI maximale 15.\n3\n0\nCapable de bouger et d’infliger des dégâts. TAI maximale 20.\n4\n-25 %\nCapable de bouger et d’infliger des dégâts. TAI maximale 30.\n5\n-50 %\nIndiscernable de l’original, capable de bouger et d’infliger des dégâts. TAI maximale 40.\n+1 au-delà de 5\n-50 %\n+10 TAI par point de Magnitude.\n",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Neutralisation De La Magie",
+    "category": "profane",
     "traits": [
+      "Instantané"
     ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Élimine une combinaison de Magnitudes de sort égale à sa propre Magnitude, en commençant par le sort le plus puissant affectant la cible.",
+    "effect": "Ce sort contrecarre d’autres sorts : il élimine une combinaison de Niveaux de Magnitude de sorts égale à sa propre Magnitude, en commençant par le sort le plus puissant affectant la cible. S’il ne parvient pas à éliminer le sort le plus puissant, il passera au second sort le plus puissant. Lorsque ce sort ne peut plus dissiper les sorts restants d’une cible parce que leur Magnitude est trop élevée, il prend immédiatement fin.\nUn sort ne peut être partiellement éliminé : un sort dont la Magnitude est supérieure à celui de Neutralisation de la Magie restera donc intact.\nLe sort de Neutralisation de la Magie peut être utilisé en tant que Réaction, mais seulement si le sort que veut contrer le sorcier est lancé à portée de Neutralisation de la Magie. Une Neutralisation de la Magie réussie dissipe l’autre sort, pour peu que la Magnitude de Neutralisation de la Magie soit égale ou supérieure à la Magnitude du sort ciblé.",
     "cult": []
   },
   {
-    "name": "",
-    "category": "",
+    "name": "Paralysie",
+    "category": "profane",
     "traits": [
+      "Résistance (Endurance)"
     ],
-    "effectShort": "",
-    "effect": "",
-    "cult": []
-  },
-  {
-    "name": "",
-    "category": "",
-    "traits": [
-    ],
-    "effectShort": "",
-    "effect": "",
+    "effectShort": "Ce sort paralyse la cible, pour peu que sa Magnitude soit supérieure à un quart de ses PV.",
+    "effect": "Si le lanceur est capable de surmonter la résistance de sa cible, il peut la paralyser, à condition que la Magnitude du sort soit supérieure à un quart de son total courant actuel de PV.",
     "cult": []
   },
   {
