@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Endurance",
+    "base": "CON+POU",
+    "category": "Résistances",
+    "description": "",
+    "shortDesc": "Mesure la constitution du personnage et sa capacité à survivre à la faim, la soif, au froid, ou\naux maladies et infections."
+  },
+  {
+    "name": "Esquive",
+    "base": "DEX+10",
+    "category": "Résistances",
+    "description": "",
+    "shortDesc": "Permet d’éviter les périls physiques, comme un coup de hache."
+  },
+  {
+    "name": "Persévérance",
+    "base": "POU+10",
+    "category": "Résistances",
+    "description": "",
+    "shortDesc": "Mesure la volonté de votre personnage, sa résistance à la magie et aux tentatives visant à\nl’influencer."
+  },
+  {
+    "name": "Combat Rapproché",
+    "base": "DEX + FOR",
+    "category": "combat",
+    "shortDesc": "La facilité avec laquelle un personnage manie les armes de mêlée, comme les épées, les\nhaches, les dagues, les lances ou les boucliers.",
+    "description": ""
+  },
+  {
+    "name": "Combat à Distance",
+    "base": "DEX + INT",
+    "category": "combat",
+    "shortDesc": "La facilité avec laquelle un personnage manie les projectiles ou les armes de lancer.",
+    "description": ""
+  },
+  {
+    "name": "Combat Sans Arme",
+    "base": "DEX + FOR",
+    "category": "combat",
+    "shortDesc": "La facilité avec laquelle un personnage manie les armes naturelles, comme la morsure, les\ncoups de poing ou de pied, les griffures ou l’empoignade.",
+    "description": ""
+  },
+  {
+    "name": "Connaissance de la Nature",
+    "base": "INT + 10",
+    "category": "connaissance",
+    "shortDesc": "Prédire le temps qu’il fera, reconnaitre et s’occuper des animaux et des plantes,\ngéologie et survie dans le monde naturel.",
+    "description": ""
+  },
+  {
+    "name": "Connaissance (Type)",
+    "base": "INT",
+    "category": "connaissance",
+    "shortDesc": "Spécialité non couverte par les autres compétences de connaissance, comme\nConnaissance (Alchimie), Connaissance (Herboristerie), etc.",
+    "description": ""
+  },
+  {
+    "name": "Culture (D’origine)",
+    "base": "INT+10",
+    "category": "connaissance",
+    "shortDesc": "Ce qu’un personnage sait de l’histoire, de la politique, de la géographie de sa\nrégion et de sa société d’origine.",
+    "description": ""
+  },
+  {
+    "name": "Culture (Autre)",
+    "base": "INT",
+    "category": "connaissance",
+    "shortDesc": "Ce qu’un personnage sait de l’histoire, de la politique et de la géographie d’une\ncontrée étrangère.",
+    "description": ""
+  },
+  {
+    "name": "Langage (Autre)",
+    "base": "INT",
+    "category": "connaissance",
+    "shortDesc": "La facilité avec laquelle un personnage peut parler une langue étrangère, voire\nlire et écrire dans cette langue.",
+    "description": ""
+  },
+  {
+    "name": "Langage (Maternel)",
+    "base": "INT+50",
+    "category": "connaissance",
+    "shortDesc": "La capacité à parler et à écrire dans sa propre langue.",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  },
+  {
+    "name": "",
+    "base": "",
+    "category": "",
+    "shortDesc": "",
+    "description": ""
+  }
+]

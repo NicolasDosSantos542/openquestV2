@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Force",
+    "description": "La Force (FOR) détermine la force brute d’un personnage, affectant les dégâts qu’il inflige, les armes qu’il peut manier avec efficacité, le poids qu’il peut porter et ainsi de suite.",
+    "short": "FOR"
+  },
+  {
+    "name": "Constitution",
+    "description": "la Constitution (CON) mesure la santé d’un personnage. Elle affecte la quantité de dégâts qu’il peut encaisser en combat, ainsi que sa résistance générale aux maladies et autres afflictions.",
+    "short": "CON"
+  },
+  {
+    "name": "Dextérité",
+    "description": "DEX",
+    "short": "La Dextérité (DEX) représente à la fois l’agilité, la coordination et la vitesse de réaction du personnage ; elle est utilisée dans bien des actions physiques, dont le combat."
+  },
+  {
+    "name": "Taille",
+    "description": "La Taille (TAI) indique la masse du personnage et, comme la FOR et la CON, peut affecter la quantité de dégâts infligée par un personnage ainsi que sa capacité à encaisser les dégâts.",
+    "short": "TAI"
+  },
+  {
+    "name": "Intelligence",
+    "description": "L’Intelligence (INT) évalue la capacité d’un personnage à résoudre des problèmes, à analyser l’information et à mémoriser des instructions. C’est une caractéristique très utile pour les personnages appelés à devenir magiciens.",
+    "short": "INT"
+  },
+  {
+    "name": "Pouvoir",
+    "description": "Le Pouvoir (POU), surement la caractéristique la plus abstraite, représente l’énergie vitale et la volonté du personnage.",
+    "short": "POU"
+  },
+  {
+    "name": "Charisme",
+    "description": "Le Charisme (CHA) quantifie la beauté, le charme ou l’autorité naturelle d’une personne.",
+    "short": "CHA"
+  }
+]

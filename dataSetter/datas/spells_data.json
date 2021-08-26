@@ -1,17 +1,3 @@
-/*
-,
-{
-  "name": "",
-  "category": "",
-  "traits": [
-    ""
-  ],
-  "effectShort": "",
-  "effect":"",
-  "cult": []
-}
-*/
-
 [
   {
     "name": "Alarme Spirituelle",
@@ -726,51 +712,6 @@
     ],
     "effectShort": "Ce sort paralyse la cible, pour peu que sa Magnitude soit supérieure à un quart de ses PV.",
     "effect": "Si le lanceur est capable de surmonter la résistance de sa cible, il peut la paralyser, à condition que la Magnitude du sort soit supérieure à un quart de son total courant actuel de PV.",
-    "cult": []
-  },
-  {
-    "name": "",
-    "category": "",
-    "traits": [
-    ],
-    "effectShort": "",
-    "effect": "",
-    "cult": []
-  },
-  {
-    "name": "",
-    "category": "",
-    "traits": [
-    ],
-    "effectShort": "",
-    "effect": "",
-    "cult": []
-  },
-  {
-    "name": "",
-    "category": "",
-    "traits": [
-    ],
-    "effectShort": "",
-    "effect": "",
-    "cult": []
-  },
-  {
-    "name": "",
-    "category": "",
-    "traits": [
-    ],
-    "effectShort": "",
-    "effect": "",
-    "cult": []
-  },
-  {
-    "name": "",
-    "category": "",
-    "traits": [
-    ],
-    "effectShort": "",
-    "effect": "",
     "cult": []
   },
   {

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Modificateur de Dégât",
+    "desc" : "le MD est appliqué lorsque le personnage utilise une arme de mêlée ou de lancer. Il dépend de la FOR et de la TAI du personnage : en effet, les personnages grands et forts infligent plus de dégâts que ceux qui sont petits et faibles. Pour calculer le MD, il faut additionner la FOR et la TAI puis se référer au tableau suivant.",
+    "base": [{
+      "maxSum": 10 ,
+      "damageMod" : "-1D6"
+    },{
+      "maxSum": 15,
+      "damageMod" :"-1D4"
+    },{
+      "maxSum": 25,
+      "damageMod" : "0"
+    },{
+      "maxSum": 30,
+      "damageMod" : "+1D4"
+    },{
+      "maxSum": 45,
+      "damageMod" :"+1D6"
+    },{
+      "maxSum": 60,
+      "damageMod" :"+2d6"
+    },{
+      "maxSum": 75,
+      "damageMod" :"+3D6"
+    },{
+      "maxSum": 90,
+      "damageMod" :"+4D6"
+    }],
+    "short": "MD"
+  },
+  {
+    "name": "Mouvement",
+    "desc" : "c’est le nombre de mètres qu’un personnage peut parcourir dans un Round de Combat de cinq secondes.",
+    "base": "15 m",
+    "short": ""
+  },
+  {
+    "name": "Points de Magie",
+    "desc" : "ils servent à activer les sorts connus du personnage.",
+    "base": "POU",
+    "short": "PM"
+  },
+  {
+    "name": "Points de Vie",
+    "desc" : "  ils déterminent combien de dégâts un personnage peut subir avant de mourir ou de perdre connaissance.",
+    "base": "(TAI + CON)/2",
+    "short": "PV"
+  },
+  {
+    "name": "Niveau de Blessure Grave (Option)",
+    "desc" : "quand le personnage reçoit cette quantité de dégâts en un seul coup, il subit une Blessure Grave, ce qui équivaut à un membre tranché, à un crâne fracassé, à une articulation brisée, etc. Sans de puissants soins magiques, une Blessure Grave peut mettre le personnage immédiatement hors de combat et laisser des séquelles permanentes.",
+    "base": "PV/2",
+    "short": ""
+  }
+]
