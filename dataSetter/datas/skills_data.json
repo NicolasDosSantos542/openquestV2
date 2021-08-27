@@ -3,78 +3,78 @@
     "name": "Endurance",
     "base": "CON+POU",
     "category": "Résistances",
-    "description": "",
-    "shortDesc": "Mesure la constitution du personnage et sa capacité à survivre à la faim, la soif, au froid, ou\naux maladies et infections."
+    "shortDesc": "Mesure la constitution du personnage et sa capacité à survivre à la faim, la soif, au froid, ou aux maladies et infections.",
+    "description": "C’est l’équivalent physique de la Persévérance. Plus un personnage est endurant, plus il sera apte à survivre à une tempête de sable, à résister à la faim, à la soif, aux poisons ou aux maladies."
   },
   {
     "name": "Esquive",
     "base": "DEX+10",
     "category": "Résistances",
-    "description": "",
-    "shortDesc": "Permet d’éviter les périls physiques, comme un coup de hache."
+    "shortDesc": "Permet d’éviter les périls physiques, comme un coup de hache.",
+    "description": "La compétence d’esquive sert à éviter des objets qui sont lancés ou projetés vers le personnage. Elle est le plus souvent employée en combat ou pour éviter les dangers physiques, comme un mur qui s’écroule."
   },
   {
     "name": "Persévérance",
     "base": "POU+10",
     "category": "Résistances",
-    "description": "",
-    "shortDesc": "Mesure la volonté de votre personnage, sa résistance à la magie et aux tentatives visant à\nl’influencer."
+    "shortDesc": "Mesure la volonté de votre personnage, sa résistance à la magie et aux tentatives visant à l’influencer.",
+    "description": "Cette compétence est utilisée lorsque la volonté du personnage est mise à l’épreuve. Un personnage peut y avoir recours pour résister aux effets de la magie ou pour s’opposer à la compétence Influence d’un adversaire."
   },
   {
     "name": "Combat Rapproché",
     "base": "DEX + FOR",
     "category": "combat",
-    "shortDesc": "La facilité avec laquelle un personnage manie les armes de mêlée, comme les épées, les\nhaches, les dagues, les lances ou les boucliers.",
-    "description": ""
+    "shortDesc": "La facilité avec laquelle un personnage manie les armes de mêlée, comme les épées, les haches, les dagues, les lances ou les boucliers.",
+    "description": "Cette compétence concerne l’art d’attaquer et de se défendre avec des armes de mêlée telles que les épées, les gourdins, les lances, les armes d’hast et les boucliers."
   },
   {
     "name": "Combat à Distance",
     "base": "DEX + INT",
     "category": "combat",
     "shortDesc": "La facilité avec laquelle un personnage manie les projectiles ou les armes de lancer.",
-    "description": ""
+    "description": "Concerne l’utilisation des armes à projectile, comme les arcs ou les arbalètes, et des armes de lancer, comme les javelots ou les dagues. La compétence est décrite plus en détail dans le chapitre 5 sur les combats."
   },
   {
     "name": "Combat Sans Arme",
     "base": "DEX + FOR",
     "category": "combat",
-    "shortDesc": "La facilité avec laquelle un personnage manie les armes naturelles, comme la morsure, les\ncoups de poing ou de pied, les griffures ou l’empoignade.",
-    "description": ""
+    "shortDesc": "La facilité avec laquelle un personnage manie les armes naturelles, comme la morsure, les coups de poing ou de pied, les griffures ou l’empoignade.",
+    "description": "Cette compétence couvre toutes les attaques dites « naturelles ». Pour les humains, cela englobe les coups de poing et de pied ainsi que l’empoignade. Les personnages non humains peuvent mordre, donner des coups de corne, de griffe, ou de queue. Arme Dé de dégâts Combat sans Arme 1D3 Arme naturelle Comme indiqué, de 1D3 à 1D12 en fonction de la créature (voir chapitre 11) "
   },
   {
     "name": "Connaissance de la Nature",
     "base": "INT + 10",
     "category": "connaissance",
-    "shortDesc": "Prédire le temps qu’il fera, reconnaitre et s’occuper des animaux et des plantes,\ngéologie et survie dans le monde naturel.",
-    "description": ""
+    "shortDesc": "Prédire le temps qu’il fera, reconnaitre et s’occuper des animaux et des plantes, géologie et survie dans le monde naturel.",
+    "description": "Cette compétence indique ce que le personnage sait sur le monde naturel. On peut la diviser en cinq catégories d’expertise. Animaux : le personnage est capable d’identifier un animal, de connaitre ses habitudes alimentaires, son cycle de reproduction, son habitat et ainsi de suite. Un personnage avec au moins 50 % dans cette compétence peut essayer de domestiquer un animal sauvage, en effectuant un test après chaque semaine de dressage. Durant cette période, si le personnage dispose d’au moins 50 % en Équitation, il peut dresser pour la monte un animal adapté à ce genre de tâche. Le personnage sera ensuite capable d’entrainer l’animal à attaquer ses ennemis et à ne pas paniquer au combat. Cela demande une période d’entrainement supplémentaire, le personnage devant effectuer un test à la fin de chaque semaine pour réussir. Minerais : le personnage peut reconnaitre les métaux et les pierres précieuses ainsi que les fissures ou autres éléments dangereux dans la pierre. Plantes : un personnage peut identifier les plantes dans la nature, découvrir les bons endroits où planter ses cultures, savoir quelles sont les plantes comestibles et quelles sont leurs propriétés. Survie : un test de Survie sera exigé chaque jour qu’un personnage manque d’eau, de nourriture, ou d’un endroit adéquat pour dormir. Un succès indique que le personnage trouve ce dont il a besoin. Par contre, un échec risque de mettre en péril l’existence du personnage. Un test de Survie peut aussi être demandé à d’autres occasions, notamment lorsque le personnage désire chasser ou trouver un bon endroit où se reposer pour la nuit. La compétence ne peut être utilisée en ville. La survie évalue aussi la capacité à pister dans la nature : le personnage peut ainsi repérer les empreintes d’une créature et les suivre. Climat : le personnage peut prédire les changements du climat local."
   },
   {
     "name": "Connaissance (Type)",
     "base": "INT",
     "category": "connaissance",
-    "shortDesc": "Spécialité non couverte par les autres compétences de connaissance, comme\nConnaissance (Alchimie), Connaissance (Herboristerie), etc.",
-    "description": ""
+    "shortDesc": "Spécialité non couverte par les autres compétences de connaissance, comme Connaissance (Alchimie), Connaissance (Herboristerie), etc.",
+    "description": "C’est en réalité une famille de compétences. Connaissance (Alchimie) et Connaissance (Histoire) sont ainsi des compétences séparées. Voici une liste non exhaustive des champs d’études : alchimie, art, astronomie, droit, géographie, philosophie, héraldique, histoire, tactiques militaires, logistique, poisons… Chaque compétence de Connaissance concerne un domaine spécifique et un test de compétence est effectué lorsqu’un joueur veut déterminer si son personnage sait quelque chose à ce sujet. La gamme des Connaissances possible n’est limitée que par l’imagination du joueur."
   },
   {
     "name": "Culture (D’origine)",
     "base": "INT+10",
     "category": "connaissance",
-    "shortDesc": "Ce qu’un personnage sait de l’histoire, de la politique, de la géographie de sa\nrégion et de sa société d’origine.",
-    "description": ""
+    "shortDesc": "Ce qu’un personnage sait de l’histoire, de la politique, de la géographie de sa région et de sa société d’origine.",
+    "description": "Chaque compétence de culture sert à fournir des informations sur la vision du monde partagée par un groupe de personnes ou de créatures. Cela inclut l’histoire, la politique, les cycles climatiques, la géographie, les superstitions et la mythologie populaire. Culture (d’Origine) correspond aux croyances et coutumes du peuple d’origine du personnage. Les cultures étrangères sont notées comme Culture (Autre)."
   },
   {
     "name": "Culture (Autre)",
     "base": "INT",
     "category": "connaissance",
-    "shortDesc": "Ce qu’un personnage sait de l’histoire, de la politique et de la géographie d’une\ncontrée étrangère.",
-    "description": ""
+    "shortDesc": "Ce qu’un personnage sait de l’histoire, de la politique et de la géographie d’une contrée étrangère.",
+    "description": "Chaque compétence de culture sert à fournir des informations sur la vision du monde partagée par un groupe de personnes ou de créatures. Cela inclut l’histoire, la politique, les cycles climatiques, la géographie, les superstitions et la mythologie populaire. Culture (d’Origine) correspond aux croyances et coutumes du peuple d’origine du personnage. Les cultures étrangères sont notées comme Culture (Autre)."
   },
   {
     "name": "Langage (Autre)",
     "base": "INT",
     "category": "connaissance",
-    "shortDesc": "La facilité avec laquelle un personnage peut parler une langue étrangère, voire\nlire et écrire dans cette langue.",
-    "description": ""
+    "shortDesc": "La facilité avec laquelle un personnage peut parler une langue étrangère, voire lire et écrire dans cette langue.",
+    "description": "Comme pour les compétences de connaissance, il s’agit de compétences séparées pour chaque langue spécifique. Par exemple, les compétences Langue (Français), Langue (Anglais) et Langue (Allemand) sont des compétences individuelles. Un personnage avec une valeur de 50 % ou plus dans la compétence parle couramment la langue, bien que son accent soit décelable si ce n’est pas sa langue natale. Une valeur de 80 % signifie que le personnage peut aussi lire et écrire dans cette langue."
   },
   {
     "name": "Langage (Maternel)",
@@ -84,143 +84,143 @@
     "description": ""
   },
   {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
+    "name": "Artisanat",
+    "base": "INT + 10",
+    "category": "pratiques",
+    "shortDesc": "Permet de créer des choses, comme des pots, des armes ou des bâtiments.",
+    "description": "C’est en fait une famille de compétences utilisées pour créer, réparer et décorer des objets divers. Voici ci-dessous une liste non exhaustive d’artisanats : armurier, tanneur, boulanger, cordonnier, vannier, charpentier, tisserand, cartographe, fabricant de bougies, maçon, peintre, sculpteur, potier, forgeron… Comme règle rapide, vous pouvez partir du principe qu’il faut un jour de travail par tranche de 50 pièces d’argent du prix de l’objet fabriqué, et que le cout de base du matériel nécessaire à la fabrication est égal à 50 % du prix final indiqué."
+  },
+  {
+    "name": "Athlétisme",
+    "base": "DEX + FOR",
+    "category": "pratiques",
+    "shortDesc": "Courir, grimper, sauter et soulever des poids.",
+    "description": "Cette compétence recouvre plusieurs activités, comme les acrobaties, l’escalade, le saut et la nage. Acrobaties : le personnage peut effectuer des mouvements de gymnastique, comme faire des roulés-boulés, marcher sur une corde, ou se maintenir en équilibre sur une plateforme instable. Le personnage peut se mouvoir à la moitié de sa vitesse normale sur une surface instable sans malus. Pour se déplacer à sa vitesse normale, il doit réussir un test d’Acrobatie. Un test d’Acrobatie réussi peut également servir à réduire de moitié les dégâts dus à une chute. Force Brute : utilisée pour toute tâche qui demande de la puissance pure plutôt que de la finesse, comme pousser, soulever ou trainer quelque chose… Escalade : s’il a de bonnes prises et qu’il dispose de suffisamment de temps, un personnage peut escalader n’importe quelle surface sans avoir à effectuer un test. Dans des circonstances normales, un personnage peut monter ou descendre au quart de son mouvement par action de combat. Un test devrait être réservé aux surfaces traitresses, ou si le personnage veut accélérer son rythme d’escalade. Il peut ainsi doubler son rythme en effectuant un test très difficile (- 50 %). Saut : en règle générale, un test réussi d’Athlétisme permet au personnage de sauter horizontalement jusqu’au double de sa taille, ou verticalement jusqu’à la moitié de sa taille, s’il prend un élan d’au moins 5 mètres. Pour un saut sans élan, ces valeurs sont réduites de moitié. Des malus au test d’Athlétisme peuvent être donnés si le personnage tente de sauter plus haut ou plus loin. Pour chaque mètre supplémentaire que le personnage essaie de sauter, un malus de -25 % est appliqué au test. Si cette pénalité réduit la compétence en deçà de 0, le saut est impossible, même en obtenant un critique. Nage : normalement, les personnages nagent à la moitié de leur capacité de mouvement. Un test n’est requis que si les conditions sont loin d’être idéales, par exemple une nage en armure de plaques ou contre un fort courant."
+  },
+  {
+    "name": "Conduite",
+    "base": "DEX + INT",
+    "category": "pratiques",
+    "shortDesc": "Diriger des véhicules des périodes antiques et médiévales, tels que les charrues, les charriots, et les charrettes.",
+    "description": "Si un personnage est en train de conduire un charriot, une charrette ou un autre véhicule similaire à une vitesse ne dépassant pas celle d’un homme qui marche, un test de conduite n’est pas nécessaire. Par contre, un test est requis quand un personnage veut faire quelque chose qui sort de l’ordinaire avec un véhicule : traverser un terrain difficile, sauter des obstacles, etc."
+  },
+  {
+    "name": "Équitation",
+    "base": "DEX + POU",
+    "category": "pratiques",
+    "shortDesc": "Tenter des manœuvres risquées à dos de bêtes comme les chameaux ou les chevaux, voire de créatures plus fantastiques telles que les hippogriffes.",
+    "description": "Si un personnage chevauche une créature à l’aide d’une selle et d’étriers sur un terrain plat et au pas, un test ne sera jamais nécessaire. Des tests pourront être exigés si le cavalier tente une action sortant de l’ordinaire : folle cavalcade dans les broussailles, monter à cru…e"
+  },
+  {
+    "name": "Guérison",
+    "base": "INT + 10",
+    "category": "pratiques",
+    "shortDesc": "Soigner des blessures et des maladies en utilisant les premiers soins et la chirurgie.",
+    "description": "L’utilisation de cette compétence exige toujours un équipement adéquat (bandages, baumes, ou autres alternatives improvisées) et dure en général quelques minutes. Durant ce laps de temps, le soigneur et le patient doivent rester sur place : s’ils ont recours à des Actions de Combat ou à des Réactions, ils perdent les bénéfices du soin."
+  },
+  {
+    "name": "Influence",
+    "base": "CHA + 10",
+    "category": "pratiques",
+    "shortDesc": "Persuader quelqu’un de faire quelque chose qui est contraire à ses intérêts.",
+    "description": "Les tests d’Influence sont généralement opposés à la compétence de Perception, de Persévérance ou d’Influence de l’adversaire et peuvent être modifiés par l’ampleur du changement que le personnage veut opérer dans l’esprit de son interlocuteur."
+  },
+  {
+    "name": "Ingénierie",
+    "base": "INT + 10",
+    "category": "pratiques",
+    "shortDesc": "Les constructions de grande ampleur et les engins de siège sont couverts par cette compétence.",
+    "description": "Cette compétence sert à concevoir, construire, activer, réparer, saboter ou démonter de grands mécanismes ou des constructions comme des engins de siège, les portes d’une ville, les ponts-levis, les puits de mine, les navires à voiles, etc. "
+  },
+  {
+    "name": "Mécanismes",
+    "base": "DEX + INT",
+    "category": "pratiques",
+    "shortDesc": "Manipuler des serrures et toute chose avec des éléments mouvants complexes.",
+    "description": "Crocheter une serrure ou désamorcer un piège prend normalement au moins une minute (12 Rounds de combat) ; les systèmes plus importants demandent plus de temps. Le plus souvent, un personnage aura simplement à effectuer un test de Mécanismes pour assembler ou désassembler un mécanisme, avec les bonus ou malus déterminés par le meneur de jeu. Cependant, si le mécanisme a été conçu afin de résister spécifiquement à des tentatives de désassemblage, le test de Mécanismes est opposé à la compétence Mécanismes du concepteur de l’appareil."
+  },
+  {
+    "name": "Navigation",
+    "base": "CHA + POU",
+    "category": "pratiques",
+    "shortDesc": "Diriger des navires et des barques.",
+    "description": "Navigation concerne aussi bien les petits canots ou radeaux propulsés par des rames que les navires plus grands propulsés par les rangées de rames ou des voiles. Naviguer en eaux calmes ne nécessite généralement pas de test, mais des difficultés telles que le courant ou le mauvais temps peuvent entrainer des malus. "
+  },
+  {
+    "name": "Négoce",
+    "base": "INT + 10",
+    "category": "pratiques",
+    "shortDesc": "Évaluer et vendre des marchandises.",
+    "description": "Cette compétence sert principalement lorsque les personnages échangent, troquent ou négocient des biens. Dans de telles transactions, il faut un Test d’Opposition réussi entre le Négoce de l’acheteur et le Négoce du vendeur pour que l’acheteur puisse obtenir un rabais. Si l’acheteur gagne, il bénéficie d’un rabais de -10 % en cas de succès normal, et de -25 % en cas de Prouesse. Si le vendeur remporte le test, le prix des objets augmente de +10 % en cas de succès et de +25 % en cas de Prouesse. Si l’adversaire obtient une Maladresse à son jet, doublez le rabais ou l’augmentation. Avec la compétence Négoce, le personnage peut aussi déterminer la valeur accordée par d’autres à un objet et donc d’estimer sa valeur marchande. Des objets très communs ou très rares peuvent donner un bonus ou un malus au test. Un succès permettra au personnage de deviner la valeur monétaire moyenne d’un objet avec une marge d’erreur de 10 % par rapport à la valeur réelle."
+  },
+  {
+    "name": "Perception",
+    "base": "INT + POU",
+    "category": "pratiques",
+    "shortDesc": "Repérer des objets cachés et de petits détails de l’environnement.",
+    "description": "La Perception représente les cinq sens du personnage lorsqu’il tente de détecter des objets ou d’autres personnages : repérer un endroit ou un personnage caché, fouiller une zone à la recherche d’un objet caché, etc."
+  },
+  {
+    "name": "Performance",
+    "base": "CHA + 10",
+    "category": "pratiques",
+    "shortDesc": "Jouer un rôle dans une pièce de théâtre, chanter, danser, jouer d’un instrument...",
+    "description": "Avec un test réussi, l’auditoire sera content de la performance du personnage. Cette compétence couvre le théâtre, la composition, la danse, le chant, la lecture en public, la poésie et le jeu d’instrument."
+  },
+  {
+    "name": "Relation (Type)",
+    "base": "CHA + 10",
+    "category": "pratiques",
+    "shortDesc": "Compétence optionnelle qui représente la force du lien noué entre le personnage et un PNJ ou un groupe de PNJ.",
     "description": ""
   },
   {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
+    "name": "Richesse",
+    "base": "INT + CHA",
+    "category": "pratiques",
+    "shortDesc": "Compétence optionnelle qui mesure la capacité d’un personnage à gérer ses ressources.",
+    "description": "Détaillée en fin de chapitre, à la page 48, cette compétence optionnelle permet de gérer de façon abstraite la monnaie et les ressources du personnage, ce qui est particulièrement pratique pour un personnage de niveau Dirigeant ou supérieur."
   },
   {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
+    "name": "Sens de la Rue",
+    "base": "CHA + POU",
+    "category": "pratiques",
+    "shortDesc": "Détermine comment un personnage opère dans un environnement urbain. À utiliser notamment pour trouver de l’information, s’orienter dans les rues, et trouver des recéleurs prêts à vendre des biens volés.",
+    "description": "Le Sens de la Rue permet à un personnage de dénicher des informations, d’acheter ou de vendre des marchandises volées, de trouver les marchés noirs. En général, son utilisation dure au moins 1d4 heures. Enfin, cette compétence couvre aussi la filature discrète d’une personne dans les rues bondées d’une cité."
   },
   {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
+    "name": "Tromperie",
+    "base": "DEX + INT",
+    "category": "pratiques",
+    "shortDesc": "Faire preuve de discrétion, se cacher et faire du vol à la tire.",
+    "description": "La Tromperie regroupe les activités suivantes : Le Déguisement permet de modifier l’apparence d’un personnage et de lui faire endosser une personnalité d’emprunt. La Discrétion est employée lorsqu’un personnage tente d’échapper à la vigilance d’un autre personnage, par exemple pour se cacher ou pour passer silencieusement derrière un ennemi. Les tests de Discrétion sont opposés à des tests de Perception avec des modificateurs dépendant de la situation. Passepasse sert à prendre ou dissimuler des objets sans attirer l’attention. Les tests sont opposés à la Perception d’un adversaire et sont modifiés selon les circonstances."
   },
   {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
+    "name": "Magie Commune",
+    "base": "POU x 3",
+    "category": "magiques",
+    "shortDesc": "À utiliser avec la Magie Commune. Cette compétence vous permet d’utiliser cette magie moins puissante, mais plus facile à utiliser que les autres.",
+    "description": "Cette compétence représente la capacité du personnage à lancer des sorts de Magie Commune, ses connaissances dans ce domaine de magie et enfin son aptitude à identifier des objets magiques."
   },
   {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
+    "name": "Sorcellerie",
+    "base": "INT",
+    "category": "magiques",
+    "shortDesc": "À utiliser avec la Sorcellerie. Cette compétence sert à lancer et à manipuler des sorts de sorcellerie. Pour les non-magiciens, cela vous permet d’utiliser des parchemins, des talismans et autres objets de sorciers.",
+    "description": "Avec cette compétence, un personnage peut non seulement lancer les sorts de Sorcellerie qu’il connait, mais aussi manipuler les effets, la portée et la durée de ces sorts. Il peut aussi utiliser des objets magiques avec des sorts stockés dedans (appelés aussi Matrices) et des parchemins où sont écrits des sorts de Sorcellerie. Enfin, cette compétence représente aussi les connaissances du personnage au sujet de la Sorcellerie."
   },
   {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
+    "name": "Religion (d’origine)",
+    "base": "INT + 10",
+    "category": "magiques",
+    "shortDesc": "À utiliser avec la Magie Divine. La plupart des personnages sont au moins membres laïques d’une religion locale, et la connaissent superficiellement. Pour les personnages plus dévots, cette compétence est la clé de leur avancement.",
+    "description": "La compétence Religion est utilisée afin de se remémorer des connaissances de nature religieuse, bien que le personnage ne puisse se souvenir que d’éléments en rapport avec sa religion. Pour apprendre une religion, un personnage doit être au moins un membre laïc d’un culte particulier. Cette compétence compte toujours comme une compétence de culte. Religion (d’Origine) est la religion à laquelle appartient le personnage, alors que Religion (Autre) fait normalement référence à d’autres cultes étrangers. En général, un personnage ne fera partie que d’une seule religion. Cette compétence n’est pas nécessaire pour lancer des sorts de Magie Divine, mais elle sert à progresser dans la hiérarchie du culte et permet donc d’accéder à des sorts de Magie Divine de Magnitude plus élevée."
   },
   {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "base": "",
-    "category": "",
-    "shortDesc": "",
-    "description": ""
+    "name": "Religion (autre)",
+    "base": "INT",
+    "category": "magiques",
+    "shortDesc": "À utiliser avec la Magie Divine. Cette compétence concerne la connaissance d’une autre religion, le terme entre parenthèses indiquant le nom de la religion.",
+    "description": "La compétence Religion est utilisée afin de se remémorer des connaissances de nature religieuse, bien que le personnage ne puisse se souvenir que d’éléments en rapport avec sa religion. Pour apprendre une religion, un personnage doit être au moins un membre laïc d’un culte particulier. Cette compétence compte toujours comme une compétence de culte. Religion (d’Origine) est la religion à laquelle appartient le personnage, alors que Religion (Autre) fait normalement référence à d’autres cultes étrangers. En général, un personnage ne fera partie que d’une seule religion. Cette compétence n’est pas nécessaire pour lancer des sorts de Magie Divine, mais elle sert à progresser dans la hiérarchie du culte et permet donc d’accéder à des sorts de Magie Divine de Magnitude plus élevée."
   }
 ]
