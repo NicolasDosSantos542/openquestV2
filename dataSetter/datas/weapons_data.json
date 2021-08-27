@@ -305,9 +305,7 @@
     "weight":2,
     "size": "Moyen",
     "price":250,
-    "special": [
-    "Flex"
-    ],
+    "special": [    "Flex"    ],
     "range": "",
     "type": "mélée"
   },

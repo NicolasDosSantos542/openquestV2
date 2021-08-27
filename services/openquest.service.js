@@ -1,19 +1,15 @@
 const Spell = require('../models/spellModel');
 const Armor = require('../models/armorModel');
-const Attribute = require('../models/armorModel');
+const Attribute = require('../models/attributesModel');
 const Carac = require('../models/caracModel');
 const Daily = require('../models/dailyModel');
 const Skill = require('../models/skillModel');
 const Weapon = require('../models/weaponModel');
 require('dotenv').config();
-const bcrypt = require('bcrypt')
-const validation = require('../validation/validation')
-const jwt = require("jsonwebtoken");
-
-
 
 
 exports.newCreation = async (body, type) => {
+
     try {
         let creation;
         switch (type) {
@@ -22,7 +18,8 @@ exports.newCreation = async (body, type) => {
                 break;
             case "armor":
                 creation = new Armor({});
-                break;case "attribute":
+                break;
+            case "attribute":
                 creation = new Attribute({});
                 break;
             case "carac":
@@ -39,7 +36,7 @@ exports.newCreation = async (body, type) => {
                 break;
 
         }
-        Object.assign(creation, body )
+        Object.assign(creation, body)
         await creation.save();
         return {success: true};
 

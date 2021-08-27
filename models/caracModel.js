@@ -1,12 +1,14 @@
 const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 
-const AttributeSchema = new mongoose.Schema({
-
+const CaracSchema = new mongoose.Schema({
+    name : {},
+    description : {},
+    short : {}
 });
 
-AttributeSchema.plugin(uniqueValidator);
+CaracSchema.plugin(uniqueValidator);
 
-const Attributes = mongoose.model('attributes', AttributeSchema);
+const Caracs = mongoose.model('caracs', CaracSchema);
 
-module.exports = Attributes;
+module.exports = Caracs;
