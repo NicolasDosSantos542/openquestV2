@@ -1,16 +1,427 @@
 [
   {
-    "name": "",
-    "damage": "",
+    "name": "Matraque",
+    "damage": "1D4",
     "minSTR": "",
     "minDEX": "",
-    "weight": "",
-    "size": "",
-    "price": "",
+    "weight": "1",
+    "size": "Léger",
+    "price": 5,
     "special": [
-
     ],
     "range": "",
-    "type": ""
+    "type": "mélée"
+  },
+  {
+    "name": "Gourdin ",
+    "damage": "1D6",
+    "minSTR": "5",
+    "minDEX": "9",
+    "weight": 1,
+    "size": "Léger",
+    "price": 20,
+    "special": [
+      "Flex"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Hachette",
+    "damage": "1D6",
+    "minSTR": "5",
+    "minDEX": "9",
+    "weight": 1,
+    "size": "Léger",
+    "price": 20,
+    "special": [
+      "Portée"
+    ],
+    "type": "mélée"
+  },
+  {
+    "name": "Bâton",
+    "damage": "1D6",
+    "minSTR": 5,
+    "minDEX": 9,
+    "weight": 1,
+    "size": "Moyen",
+    "price": 20,
+    "special": [
+      "2M"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Hache de bataille",
+    "damage": "1D8",
+    "minSTR": 9,
+    "minDEX": 9,
+    "weight": 2,
+    "size": "Moyen",
+    "price": 20,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "marteau de guerre",
+    "damage": "1D8",
+    "minSTR": 9,
+    "minDEX": 9,
+    "weight": 2,
+    "size": "Moyen",
+    "price": 20,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "pique de guerre",
+    "damage": "1D8",
+    "minSTR": 9,
+    "minDEX": 9,
+    "weight": 2,
+    "size": "Moyen",
+    "price": 20,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "chaine & boulet",
+    "damage": "1D8",
+    "minSTR": 9,
+    "minDEX": 9,
+    "weight": 2,
+    "size": "Moyen",
+    "price": 20,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Masse ",
+    "damage": "1D8",
+    "minSTR": 9,
+    "minDEX": 9,
+    "weight": 2,
+    "size": "Moyen",
+    "price": 20,
+    "special": [
+      "Flex"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Grand marteau",
+    "damage": "2D8",
+    "minSTR": 13,
+    "minDEX": 5,
+    "weight": 4,
+    "size": "Lourd",
+    "price": 200,
+    "special": [
+      "2M"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "grande hache",
+    "damage": "2D8",
+    "minSTR": 13,
+    "minDEX": 5,
+    "weight": 4,
+    "size": "Lourd",
+    "price": 200,
+    "special": [
+      "2M"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "fléau militaire",
+    "damage": "2D8",
+    "minSTR": 13,
+    "minDEX": 5,
+    "weight": 4,
+    "size": "Lourd",
+    "price": 200,
+    "special": [
+      "2M"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "maillet de guerre",
+    "damage": "2D8",
+    "minSTR": 13,
+    "minDEX": 5,
+    "weight": 4,
+    "size": "Lourd",
+    "price": 200,
+    "special": [
+      "2M"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Hallebarde",
+    "damage": "1D8",
+    "minSTR": 9,
+    "minDEX": 9,
+    "weight": 3,
+    "size": "Lourd",
+    "price": 200,
+    "special": [
+      "2M",
+      "LL"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "arme d’hast",
+    "damage": "1D8",
+    "minSTR": 9,
+    "minDEX": 9,
+    "weight": 3,
+    "size": "Lourd",
+    "price": 200,
+    "special": [
+      "2M",
+      "LL"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Petit (rondache ou psilos)",
+    "category": "bouclier",
+    "damage": "1D4",
+    "minSTR": "",
+    "minDEX": "",
+    "weight": 1,
+    "size": "Moyen",
+    "price": 50,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Moyen (écu)",
+    "category": "bouclier",
+    "damage": "1D6",
+    "minSTR": 9,
+    "minDEX": "-",
+    "weight": 2,
+    "size": "Lourd",
+    "price": 150,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Grand (pavois)",
+    "category": "bouclier",
+    "damage": "1D6",
+    "minSTR": 13,
+    "minDEX": "-",
+    "weight": 3,
+    "size": "Enorme",
+    "price": 300,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Lance de cavalerie",
+    "category": "lance",
+    "damage": "1D10",
+    "minSTR": 11,
+    "minDEX": 9,
+    "weight": 3,
+    "size": "Lourd",
+    "price": 150,
+    "special": [
+      "Prep",
+      "Flex"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Lance longue",
+    "category": "lance",
+    "damage": "1D8",
+    "minSTR": 9,
+    "minDEX": 5,
+    "weight": 2,
+    "size": "Moyen",
+    "price": 30,
+    "special": [
+      "Prep",
+      "Flex"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Lance courte ",
+    "category": "lance",
+    "damage": "1D6",
+    "minSTR": 5,
+    "minDEX": 5,
+    "weight": 2,
+    "size": "Moyen",
+    "price": 20,
+    "special": [
+      "Prep",
+      "Flex",
+      "portée"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Épée bâtarde",
+    "category": "Épées et couteaux",
+    "damage": "1D8",
+    "minSTR": 13,
+    "minDEX": 9,
+    "weight":2,
+    "size": "Moyen",
+    "price":250,
+    "special": [
+    "Flex"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Couteau",
+    "category": "Épées et couteaux",
+    "damage": "1D4+1",
+    "minSTR":"-",
+    "minDEX":"-",
+    "weight":"",
+    "size": "Léger",
+    "price":20,
+    "special": ["Portée"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Dague ",
+    "category": "Épées et couteaux",
+    "damage": "1D4+1",
+    "minSTR":"-",
+    "minDEX":"-",
+    "weight":"",
+    "size": "Léger",
+    "price":20,
+    "special": ["Portée"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Cimeterre",
+    "category": "Épées et couteaux",
+    "damage": "1D8",
+    "minSTR":9,
+    "minDEX":9,
+    "weight":2,
+    "size": "Moyen",
+    "price":150,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "épée longue",
+    "category": "Épées et couteaux",
+    "damage": "1D8",
+    "minSTR":9,
+    "minDEX":9,
+    "weight":2,
+    "size": "Moyen",
+    "price":150,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Épée large",
+    "category": "Épées et couteaux",
+    "damage": "2D8",
+    "minSTR":13,
+    "minDEX":9,
+    "weight":4,
+    "size": "Lourd",
+    "price":300,
+    "special": [
+      "2M"
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Rapière",
+    "category": "Épées et couteaux",
+    "damage": "1D6",
+    "minSTR":9,
+    "minDEX":13,
+    "weight":1,
+    "size": "Léger",
+    "price":150,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "Épée courte",
+    "category": "Épées et couteaux",
+    "damage": "1D6",
+    "minSTR":5,
+    "minDEX":5,
+    "weight":1,
+    "size": "Moyen",
+    "price":100,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
+  },
+  {
+    "name": "glaive",
+    "category": "Épées et couteaux",
+    "damage": "1D6",
+    "minSTR":5,
+    "minDEX":5,
+    "weight":1,
+    "size": "Moyen",
+    "price":100,
+    "special": [
+    ],
+    "range": "",
+    "type": "mélée"
   }
 ]
