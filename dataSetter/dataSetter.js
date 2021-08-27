@@ -15,11 +15,10 @@ const openquestService = require("../services/openquest.service");
 //     .then(r => process.exit())
 
 
-
-async function addspell(spellsData) {
-    for (const element of spellsData) {
+async function addSpell(data, type) {
+    for (const element of data) {
         try {
-            let resService = await openquestService.addSpell(element)
+            let resService  = await openquestService.newCreation(element, type);
             if (resService.success === true) {
                 console.log(resService)
             } else {
@@ -31,4 +30,4 @@ async function addspell(spellsData) {
     }
 }
 
-addspell(spellsData).then(r => console.log(r))
+addSpell(spellsData).then(r => console.log(r))

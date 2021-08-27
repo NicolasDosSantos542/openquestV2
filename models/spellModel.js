@@ -38,6 +38,6 @@ const SpellSchema = new mongoose.Schema({
 
 SpellSchema.plugin(uniqueValidator);
 
-const Users = mongoose.model('spells', SpellSchema);
+const Spells = mongoose.model('spells', SpellSchema);
 
-module.exports = Users;
+module.exports = Spells;
