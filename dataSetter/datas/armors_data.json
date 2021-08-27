@@ -1,9 +1,37 @@
 [
   {
-    "name": "",
-    "value": "",
-    "weight": "",
-    "price": "",
-    "description": ""
+    "name": "cuir",
+    "value": 2,
+    "weight": 3,
+    "price": "500",
+     "description":  "Cuir rembourré, cuir bouilli et durci, ou armure en lin."
+  },
+  {
+    "name": "Broigne" ,
+    "value":  3,
+    "weight": 5 ,
+    "price":  1000,
+    "description": "Anneaux de métal fixés sur une armure en cuir."
+  },
+  {
+     "name":  "Écaille",
+    "value":  4,
+    "weight": 7 ,
+    "price":  1500,
+     "description":  "Plaques de métal recouvrant une armure de cuir"
+  },
+  {
+     "name":  "Cotte de mailles",
+    "value": 5  ,
+    "weight":8  ,
+    "price": 3000 ,
+     "description":  "Ensemble d’anneaux de fer liés pour former une armure."
+  },
+  {
+     "name":  "Plaques",
+    "value":  6,
+    "weight": 12 ,
+    "price":  9000,
+     "description":  "Plaques d’acier qui recouvrent le corps par-dessus une cotte de maille."
   }
 ]

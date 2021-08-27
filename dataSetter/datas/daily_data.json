@@ -1,9 +1,449 @@
 [
   {
     "name": "",
-    "category": "",
-    "price": "",
     "weight": "",
+    "price": "",
+    "description": "",
+    "category": "Animaux, Transports & Esclaves"
+  },
+  {
+    "name": "Bison",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 200
+  },
+  {
+    "name": "Bœuf",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 200
+  },
+  {
+    "category": "Animaux, Transports & Esclaves",
+    "name": "Charriot",
+    "price": 600
+  },
+  {
+    "name": "Charrette",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 75
+  },
+  {
+    "name": "Chat",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 2
+  },
+  {
+    "name": "Chèvre",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 50
+  },
+  {
+    "name": "Bison",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 200
+  },
+  {
+    "name": "Cochon",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 50
+  },
+  {
+    "name": "Cheval, de monte",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 350
+  },
+  {
+    "name": "Cheval, de trait",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 400
+  },
+  {
+    "name": "Cheval, entrainé au combat",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 500
+  },
+  {
+    "name": "Chien, chasse",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 25
+  },
+  {
+    "name": "Chien, domestique",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 2
+  },
+  {
+    "name": "Esclave, adulte",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 1000
+  },
+  {
+    "name": "Esclave, compétent",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 2500
+  },
+  {
+    "name": "Esclave, éduqué",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 5000
+  },
+  {
+    "name": "Esclave, enfant",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 200
+  },
+  {
+    "name": "Esclave, jeune",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 400
+  },
+  {
+    "name": "Faucon",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 400
+  },
+  {
+    "name": "Mouton",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 30
+  },
+  {
+    "name": "Mule",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 125
+  },
+  {
+    "name": "Rhinocéros",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 3000
+  },
+  {
+    "name": "Selle & Bride",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 75
+  },
+  {
+    "name": "Taureau",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 250
+  },
+  {
+    "name": "Vache",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 150
+  },
+  {
+    "name": "Volaille",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 1
+  },
+  {
+    "name": "Voyage (par bateau)",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 10
+  },
+  {
+    "name": "Voyage (par chariot)",
+    "price": 5,
+    "category": "Animaux, Transports & Esclaves"
+  },
+  {
+    "name": "Voyage (par cheval)",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 20
+  },
+  {
+    "name": "Voyage (par diligence)",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 15
+  },
+  {
+    "name": "Wagon",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 300
+  },
+  {
+    "name": "Zèbre",
+    "category": "Animaux, Transports & Esclaves",
+    "price": 300
+  },
+  {
+    "name": "Boisson et Nourriture, pauvres, 1 jour",
+    "category":  "nourriture et logement",
+    "price": 1
+  },
+  {
+    "name": "Boisson et Nourriture, standards, 1 jour",
+    "category" : "nourriture et logement",
+    "price": 5
+  },
+  {
+    "name": "Boisson et Nourriture, supérieurs, 1 jour",
+    "category" : "nourriture et logement",
+    "price": 2
+  },
+  {
+    "name": "Logement, pauvre, 1jour",
+    "category" : "nourriture et logement",
+    "price": 2
+  },
+  {
+    "name": "Logement, standard, 1jour",
+    "category" : "nourriture et logement",
+    "price": 1
+  },
+  {
+    "name": "Logement, supérieur, 1jour",
+    "category" : "nourriture et logement",
+    "price": 5
+  },
+  {
+    "name": "Rations de voyage, 1 jour",
+    "category" : "nourriture et logement",
+    "price": 5
+  },
+  {
+    "name": "Besace",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 5,
+    "description": "Peut contenir 15 ENC d’équipement."
+  },
+  {
+    "name": "Bougie 1 heure",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 1,
+    "description": "Une bougie éclaire dans un rayon d’un mètre. Tout vent plus fort qu’une légère brise éteindra la bougie."
+  },
+  {
+    "name": "Bouteille, verre",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 2,
     "description": ""
+  },
+  {
+    "name": "Carquois",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 2,
+    "description": "Un carquois peut contenir jusqu’à 30 flèches ou carreaux d’arbalète."
+  },
+  {
+    "name": "Chaine, 2 mètres",
+    "category": "objets du quotidien",
+    "weight": 2,
+    "price": 40,
+    "description": ""
+  },
+  {
+    "name": "Codex",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 60,
+    "description": ""
+  },
+  {
+    "name": "Corde, 10 mètres",
+    "category": "objets du quotidien",
+    "weight": 2,
+    "price": 10,
+    "description": "Une corde standard peut supporter un poids de 50 ENC ou 50 TAI, ou une combinaison des deux (30 TAI et 20 ENC par exemple)."
+  },
+  {
+    "name": "Échelle, 3 mètres",
+    "category": "objets du quotidien",
+    "weight": 4,
+    "price": 2,
+    "description": ""
+  },
+  {
+    "name": "Faucille",
+    "category": "objets du quotidien",
+    "weight": 2,
+    "price": 30,
+    "description": "Si elle est utilisée comme arme, elle est considérée comme une arme Légère infligeant 1d6 dégâts, avec un malus de -10 % pour la manier."
+  },
+  {
+    "name": "Flasque d’Huile",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 1,
+    "description": "Une flasque d’huile peut alimenter une lanterne pour 2 heures. Si elle est fracassée contre le sol et allumée, une flasque d’huile crée un petit feu pendant une minute."
+  },
+  {
+    "name": "Gourde",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 5,
+    "description": "Une gourde peut contenir suffisamment d’eau pour rassasier un aventurier durant 2 jours."
+  },
+  {
+    "name": "Grand sac",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 5,
+    "description": "Peut contenir 10 ENC d’équipement."
+  },
+  {
+    "name": "Grappin",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 5,
+    "description": "Peut supporter un poids de 50 ENC ou 50 TAI, ou une combinaison des deux valeurs (30 TAI et 20 ENC par exemple)."
+  },
+  {
+    "name": "Hameçon",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 2,
+    "description": "Permet à un personnage d’utiliser sa compétence de Survie pour attraper du poisson sans subir de malus à son test."
+  },
+  {
+    "name": "Instrument de musique",
+    "category": "objets du quotidien",
+    "weight": "price",
+    "price": 70,
+    "description": ""
+  },
+  {
+    "name": "Lanterne",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 10,
+    "description": "Une lanterne procure un Éclairage Normal dans un rayon de 3 mètres. Elle consomme une flasque d’huile toutes les 2 heures."
+  },
+  {
+    "name": "Marteau",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 1,
+    "description": " S’il est utili,sé en tant qu’arme, il est considéré comme un gourdin avec un malus de -25 % pour le manier. Un marteau peut être utilisé sur des objets inanimés sans être détruit."
+  },
+  {
+    "name": "Matériel d’écriture",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 45,
+    "description": ""
+  },
+  {
+    "name": "Matériel d’escalade",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 25,
+    "description": "Un matériel d’escalade donne un bonus de +25 % à tout test d’Athlétisme effectué pour escalader."
+  },
+  {
+    "name": "Matériel de pêche",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 15,
+    "description": "Donne un bonus de +20 % au test de Survie du personnage en vue d’attraper du poisson."
+  },
+  {
+    "name": "Matériel de premiers soins (Guérisseur)",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 150,
+    "description": "Peut être utilisé 5 fois (que les tests soient réussis ou non)."
+  },
+  {
+    "name": "Outils d’artisan",
+    "category": "objets du quotidien",
+    "weight": 2,
+    "price": 75,
+    "description": ""
+  },
+  {
+    "name": "Outils de crochetage",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 75,
+    "description": ""
+  },
+  {
+    "name": "Palan",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 15,
+    "description": " Ajoute +25 % aux tests de Mécanismes destinés à créer ou désarmer de gros pièges et pour effectuer des tests d’Ingénierie dans certaines circonstances. Au moins 10 m de corde sont nécessaires pour que le matériel puisse fonctionner."
+  },
+  {
+    "name": "Feuille de papyrus",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 5,
+    "description": ""
+  },
+  {
+    "name": "Pelle",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 25,
+    "description": "Si elle est utilisée en tant qu’arme, elle est considérée comme un gourdin avec un malus de -25 % pour la manier."
+  },
+  {
+    "name": "Petit sac",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 2,
+    "description": "Peut contenir 5 ENC d’équipement."
+  },
+  {
+    "name": "Perche, 3 mètres",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 1,
+    "description": ""
+  },
+  {
+    "name": "Pic de Mineur (pioche)",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 35,
+    "description": "S’il est utilisé en tant qu’arme, il est considéré comme un gourdin avec un malus de -25 % pour le manier. Un Pic de Mineur peut être utilisé sur des objets inanimés sans être détruit."
+  },
+  {
+    "name": "Pied de biche",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 25,
+    "description": "Ajoute +25 % aux tests d’Athlétisme impliquant la Force Brute. S’il est utilisé en tant qu’arme, il est considéré comme étant un gourdin avec un malus de -25 % pour le manier."
+  },
+  {
+    "name": "Sac de couchage",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 1,
+    "description": ""
+  },
+  {
+    "name": "Sac à dos",
+    "category": "objets du quotidien",
+    "weight": 1,
+    "price": 5,
+    "description": "Peut contenir 20 ENC d’équipement."
+  },
+  {
+    "name": "Silex & amadou",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 5,
+    "description": " Un personnage avec ces deux objets peut créer un feu en une minute dans des conditions normales sans avoir à effectuer un test de Survie."
+  },
+  {
+    "name": "Torche, 1 Heure",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 4,
+    "description": "Elle brule 1 heure, fournissant un Éclairage Normal dans un rayon de 3 mètres. Si elle est utilisée en tant qu’arme, elle sera considérée comme étant un gourdin (avec un malus de -25 % pour la manier) infligeant 1d4 de dégâts de feu. Une Prouesse ou une Maladresse éteint la flamme."
+  },
+  {
+    "name": "Trousse de secours",
+    "category": "objets du quotidien",
+    "weight": "-",
+    "price": 25,
+    "description": "Peut servir cinq fois (quel que soit le résultat du test de Guérison)"
   }
 ]
