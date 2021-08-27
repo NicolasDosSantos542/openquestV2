@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 
-const SpellSchema = new mongoose.Schema({
+const DailySchema = new mongoose.Schema({
 
 });
 
-SpellSchema.plugin(uniqueValidator);
+DailySchema.plugin(uniqueValidator);
 
-const Spells = mongoose.model('spells', SpellSchema);
+const Dailys = mongoose.model('dailys', DailySchema);
 
-module.exports = Spells;
+module.exports = Dailys;

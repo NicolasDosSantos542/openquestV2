@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 
-const SpellSchema = new mongoose.Schema({
+const WeaponSchema = new mongoose.Schema({
 
 });
 
-SpellSchema.plugin(uniqueValidator);
+WeaponSchema.plugin(uniqueValidator);
 
-const Spells = mongoose.model('spells', SpellSchema);
+const Weapons = mongoose.model('weapons', WeaponSchema);
 
-module.exports = Spells;
+module.exports = Weapons;

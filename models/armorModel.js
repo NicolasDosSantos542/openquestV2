@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 
-const SpellSchema = new mongoose.Schema({
+const ArmorSchema = new mongoose.Schema({
     name: String,
     value: Number,
     weight: Number,
@@ -9,8 +9,8 @@ const SpellSchema = new mongoose.Schema({
     description: String
 });
 
-SpellSchema.plugin(uniqueValidator);
+ArmorSchema.plugin(uniqueValidator);
 
-const Spells = mongoose.model('spells', SpellSchema);
+const Armors = mongoose.model('armors', ArmorSchema);
 
-module.exports = Spells;
+module.exports = Armors;

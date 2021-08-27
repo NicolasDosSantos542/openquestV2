@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 
-const SpellSchema = new mongoose.Schema({
+const AttributesSchema = new mongoose.Schema({
 
 });
 
-SpellSchema.plugin(uniqueValidator);
+AttributesSchema.plugin(uniqueValidator);
 
-const Spells = mongoose.model('spells', SpellSchema);
+const Attributes = mongoose.model('attributes', AttributesSchema);
 
-module.exports = Spells;
+module.exports = Attributes;

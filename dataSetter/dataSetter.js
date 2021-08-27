@@ -1,4 +1,5 @@
 spellsData = require('./datas/spells_data.json');
+skillData = require('./datas/skills_data.json');
 
 const res = require("express");
 const index = require("../server");
@@ -30,4 +31,4 @@ async function addSpell(data, type) {
     }
 }
 
-addSpell(spellsData).then(r => console.log(r))
+addSpell(skillData, "skill").then(r => console.log(r))
