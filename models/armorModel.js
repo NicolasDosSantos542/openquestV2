@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 
 const ArmorSchema = new mongoose.Schema({
-    name: String,
+    name:  {type: String, unique: true},
     value: Number,
     weight: Number,
     price: Number,

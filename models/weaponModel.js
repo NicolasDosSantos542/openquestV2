@@ -4,17 +4,17 @@ const uniqueValidator = require('mongoose-unique-validator');
 
 const WeaponSchema = new mongoose.Schema({
 
-    name:String,
+    name: {type: String, unique: true},
     category: String,
-    damage:String,
-    minSTR:{},
-    minDEX:{},
-    weight:{},
-    size:{},
-    price:{},
-    special:{},
-    range:{},
-    type:{}
+    damage: String,
+    minSTR: {},
+    minDEX: {},
+    weight: {},
+    size: {},
+    price: {},
+    special: {},
+    range: {},
+    type: {}
 });
 
 WeaponSchema.plugin(uniqueValidator);

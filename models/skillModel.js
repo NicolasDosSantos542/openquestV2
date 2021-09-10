@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 
 const SkillSchema = new mongoose.Schema({
-    name: String,
+    name: {type: String, unique: true},
     base: String,
     category: String,
     shortDesc: String,

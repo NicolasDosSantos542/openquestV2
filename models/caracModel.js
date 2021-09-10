@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 
 const CaracSchema = new mongoose.Schema({
-    name : {},
+    name :  {type: String, unique: true},
     description : {},
     short : {}
 });
