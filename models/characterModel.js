@@ -59,3 +59,4 @@ CharacterSchema.plugin(uniqueValidator);
 const Characters = mongoose.model('characters', CharacterSchema);
 
 module.exports = Characters;
+//todo ajouter les Points d'Amelioration(PA)

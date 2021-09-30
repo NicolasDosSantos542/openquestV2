@@ -1,18 +1,24 @@
 const openquestService = require("../services/openquest.service");
 
 exports.register = async (req, res) => {
-    console.log("controller")
+
     try {
-        let resService = await openquestService.addSpell(req.body)
-        if (resService.success === true) {
-            res.status(201)
-            res.send(resService)
-        } else {
-            res.status(400)
-            res.send(resService)
-        }
+        let resService = await openquestService.newCreation(req.body, req.params.dataName)
+        resService ? res.status(201).json(resService) : res.status(400).json(resService)
     } catch (error) {
-        res.status(403)
-        res.send({success: false, error})
+        res.status(403).json({success: false, error})
+    }
+}
+exports.getFromDatabase = async (req, res) => {
+    try {
+        let resService = await openquestService.getFromDatabase( req.params.type)
+        resService ? res.status(201).json(resService) : res.status(400).json(resService)
+        // if (resService.success) {
+        //     res.status(201).json(resService)
+        // } else {
+        //     res.status(400).json(resService)
+        // }
+    } catch (error) {
+        res.status(403).json({success: false, error})
     }
 }

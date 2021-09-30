@@ -161,11 +161,18 @@
         }
       }
     },
-    "/openquest/magic": {
+    "/openquest/magic/{dataName}": {
       "post": {
         "tags": [],
         "description": "",
-        "parameters": [],
+        "parameters": [
+          {
+            "name": "dataName",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
         "responses": {
           "201": {
             "description": "Created"
@@ -173,6 +180,18 @@
           "400": {
             "description": "Bad Request"
           },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
+    },
+    "/openquest/magic": {
+      "get": {
+        "tags": [],
+        "description": "",
+        "parameters": [],
+        "responses": {
           "403": {
             "description": "Forbidden"
           }

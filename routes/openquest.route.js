@@ -5,6 +5,11 @@ const checkTokenMiddleware = require('../controllers/jwt.controller');
 const openquestController = require("../controllers/openquest.controller");
 
 //POST
-router.post('/magic', openquestController.register);
+router.post('/magic/:dataName', openquestController.register);
+
+//GET
+router.get('/magic/:type', openquestController.getFromDatabase);
+
+
 
 module.exports = router;
