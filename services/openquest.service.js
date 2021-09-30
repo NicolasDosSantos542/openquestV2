@@ -1,4 +1,3 @@
-
 const Spell = require('../models/spellModel');
 const Armor = require('../models/armorModel');
 const Attribute = require('../models/attributesModel');
@@ -46,19 +45,17 @@ exports.newCreation = async (body, type) => {
     }
 }
 
-export async function getFromDatabase( type) {
-    let response;
-    switch (type) {
-        case "common":
-            response = 'await' ;
-            break;
-        case "wizardry":
-            response = '';
-            break;
-        case "divine":
-            response = '';
-            break;
+exports.getFromDatabase = async (type) => {
+    let response
+    try {
+        type ==='all'?  response = await Spell.find({}):response = await Spell.find({category: type});
 
+        return {
+            success: true,
+            response: response
+        }
+    } catch (e) {
+        throw e;
     }
 
 }
