@@ -8,7 +8,8 @@ const openquestController = require("../controllers/openquest.controller");
 router.post('/magic/:dataName', openquestController.register);
 
 //GET
-router.get('/magic/:type', openquestController.getFromDatabase);
+router.get('/magic/:type', openquestController.getMagicFromDatabase);
+router.get('/get/:type', openquestController.getFromDatabase);
 
 
 

@@ -45,10 +45,10 @@ exports.newCreation = async (body, type) => {
     }
 }
 
-exports.getFromDatabase = async (type) => {
+exports.getMagicFromDatabase = async (type) => {
     let response
     try {
-        type ==='all'?  response = await Spell.find({}):response = await Spell.find({category: type});
+        type === 'all' ? response = await Spell.find({}) : response = await Spell.find({category: type});
 
         return {
             success: true,
@@ -58,4 +58,40 @@ exports.getFromDatabase = async (type) => {
         throw e;
     }
 
+}
+exports.getFromDatabase = async ( type) => {
+
+    try {
+        let response;
+        switch (type) {
+            case "armor":
+                response = await Armor.find({});
+                break;
+            case "attribute":
+                response = await Attribute.find({});
+                break;
+            case "carac":
+                response = await Carac.find({});
+                break;
+            case "daily":
+                response = await Daily.find({});
+                break;
+            case "skill":
+                response = await Skill.find({});
+                break;
+            case "weapon":
+                response = await Weapon.find({});
+                break;
+
+        }
+
+
+        return {
+            success: true,
+            response: response
+        };
+
+    } catch (error) {
+        throw error;
+    }
 }
