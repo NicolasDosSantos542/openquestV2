@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const SECRET = "RyaSuiteSecretKey1298456";
+// const SECRET = "RyaSuiteSecretKey1298456";
 const User = require('../models/userModel');
 
 const extractBearerToken = headerValue => {
@@ -28,8 +28,12 @@ exports.checkToken = async function (req, res, next) {
         return res.status(401).json({message: 'Error. Need a token'})
     }
     // Véracité du token
-    jwt.verify(token, SECRET, (err) => {
+    jwt.verify(token, process.env.SECRET, (err) => {
+        console.log(req.headers.authorization)
+        console.log("token=",token)
+        console.log("SECRET=",process.env.SECRET)
         if (err) {
+            // console.log(err)
             res.status(401).json({message: 'Error. Bad token'})
         } else {
             req.user = jwt.decode(token, {complete: false})
@@ -47,7 +51,7 @@ exports.checkTokenAdmin = async function (req, res, next) {
         return res.status(401).json({message: 'Error. Need a token'})
     }
     // Véracité du token
-    jwt.verify(token, SECRET, async (err) => {
+    jwt.verify(token, process.env.SECRET, async (err) => {
         if (err) {
             res.status(401).json({message: 'Error. Bad token'})
         } else {
