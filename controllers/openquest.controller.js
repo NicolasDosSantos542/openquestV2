@@ -1,15 +1,19 @@
 const openquestService = require("../services/openquest.service");
-const Armor = require("../models/armorModel");
-const Attribute = require("../models/attributesModel");
-const Carac = require("../models/caracModel");
-const Daily = require("../models/dailyModel");
-const Skill = require("../models/skillModel");
-const Weapon = require("../models/weaponModel");
 
 exports.register = async (req, res) => {
 
     try {
         let resService = await openquestService.newCreation(req.body, req.params.dataName)
+        resService ? res.status(201).json(resService) : res.status(400).json(resService)
+    } catch (error) {
+        res.status(403).json({success: false, error})
+    }
+}
+
+exports.createCharacter = async (req, res)=>{
+    try {
+        req.body.userId=req.user.id;
+        let resService = await openquestService.newCharacter(req.body)
         resService ? res.status(201).json(resService) : res.status(400).json(resService)
     } catch (error) {
         res.status(403).json({success: false, error})
@@ -50,7 +54,6 @@ exports.getFromDatabase = async (req, res) => {
                 })
                 break;
         }
-
     } catch (error) {
         res.status(403).json({success: false, error})
     }

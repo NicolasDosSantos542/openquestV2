@@ -6,6 +6,7 @@ const openquestController = require("../controllers/openquest.controller");
 
 //POST
 router.post('/magic/:dataName', openquestController.register);
+router.post('/character/',checkTokenMiddleware.checkToken, openquestController.createCharacter);
 
 //GET
 router.get('/magic/:type', openquestController.getMagicFromDatabase);

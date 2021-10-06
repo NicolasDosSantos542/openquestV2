@@ -5,6 +5,7 @@ const Carac = require('../models/caracModel');
 const Daily = require('../models/dailyModel');
 const Skill = require('../models/skillModel');
 const Weapon = require('../models/weaponModel');
+const Character = require('../models/characterModel');
 require('dotenv').config();
 
 
@@ -45,6 +46,20 @@ exports.newCreation = async (body, type) => {
     }
 }
 
+exports.newCharacter = async(body)=>{
+    try {
+        console.log("toto")
+        let creation = new Character;
+
+        Object.assign(creation, body)
+        await creation.save();
+        return {success: true};
+
+    } catch (error) {
+        throw error;
+    }
+}
+
 exports.getMagicFromDatabase = async (type) => {
     let response
     try {
@@ -60,7 +75,6 @@ exports.getMagicFromDatabase = async (type) => {
 
 }
 exports.getFromDatabase = async ( type) => {
-
     try {
         let response;
         switch (type) {
@@ -82,16 +96,63 @@ exports.getFromDatabase = async ( type) => {
             case "weapon":
                 response = await Weapon.find({});
                 break;
-
         }
-
-
         return {
             success: true,
             response: response
         };
-
     } catch (error) {
         throw error;
     }
 }
+/*
+let char = {
+    name: "",
+    race: "",
+    culture: "",
+    Age: "",
+    Gender: "",
+    Cult: {
+        god: "",
+        rank: ""
+    },
+    characteristics: {
+        strength: "",
+        constitution: "",
+        dexterity: "",
+        size: "",
+        intelligence: "",
+        power: "",
+        charisma: ""
+    },
+    attributes: {
+        damageModifier: "",
+        movementRate: "",
+        heroPoints: "",
+        hitPoints: "",
+        majorWound: "",
+        fatigue: ""
+    },
+    skills: [
+        {
+            name: "",
+            value: ""
+        }
+    ],
+    spells: [
+        {
+            name: "",
+            magnitude: ""
+        }
+    ],
+    equipment: [{
+        name: "",
+        enc : ""
+    }],
+    relationships: [{
+        name: "",
+        value: "",
+        details: ""
+    }],
+    notes: ""
+}*/

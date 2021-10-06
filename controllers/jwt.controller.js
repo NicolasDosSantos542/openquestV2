@@ -29,9 +29,6 @@ exports.checkToken = async function (req, res, next) {
     }
     // Véracité du token
     jwt.verify(token, process.env.SECRET, (err) => {
-        console.log(req.headers.authorization)
-        console.log("token=",token)
-        console.log("SECRET=",process.env.SECRET)
         if (err) {
             // console.log(err)
             res.status(401).json({message: 'Error. Bad token'})
