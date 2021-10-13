@@ -46,7 +46,7 @@ exports.newCreation = async (body, type) => {
     }
 }
 
-exports.newCharacter = async(body)=>{
+exports.newCharacter = async (body) => {
     try {
         console.log("toto")
         let creation = new Character;
@@ -74,7 +74,7 @@ exports.getMagicFromDatabase = async (type) => {
     }
 
 }
-exports.getFromDatabase = async ( type) => {
+exports.getFromDatabase = async (type) => {
     try {
         let response;
         switch (type) {
@@ -105,54 +105,31 @@ exports.getFromDatabase = async ( type) => {
         throw error;
     }
 }
-/*
-let char = {
-    name: "",
-    race: "",
-    culture: "",
-    Age: "",
-    Gender: "",
-    Cult: {
-        god: "",
-        rank: ""
-    },
-    characteristics: {
-        strength: "",
-        constitution: "",
-        dexterity: "",
-        size: "",
-        intelligence: "",
-        power: "",
-        charisma: ""
-    },
-    attributes: {
-        damageModifier: "",
-        movementRate: "",
-        heroPoints: "",
-        hitPoints: "",
-        majorWound: "",
-        fatigue: ""
-    },
-    skills: [
-        {
-            name: "",
-            value: ""
+
+exports.deleteCharacter = async (id, user) => {
+    try {
+
+        if (user.admin) {
+           let response = await Character.deleteOne({userId: user.id, _id: id})
+            return {
+                success: true,
+                response: response,
+                message: "personnage supprimé"
+            }
+        } else {
+            try {
+                let response = await Character.updateOne({_id: '615d8ef9a665521ed891e2ee'}, {archived:true});
+                return {
+                    success: true,
+                    response: response,
+                    message: "personnage archivé"
+
+                }
+            } catch (e) {
+                return e;
+            }
         }
-    ],
-    spells: [
-        {
-            name: "",
-            magnitude: ""
-        }
-    ],
-    equipment: [{
-        name: "",
-        enc : ""
-    }],
-    relationships: [{
-        name: "",
-        value: "",
-        details: ""
-    }],
-    notes: ""
-}*/
+    } catch (e) {
+        throw e;
+    }
+}

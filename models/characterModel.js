@@ -50,7 +50,9 @@ const CharacterSchema = new mongoose.Schema({
         value: Number,
         details: String
     }],
-    notes: String
+    notes: String,
+    PA: Number,
+    archived: {type: Boolean, default: false}
 
 
 });
@@ -60,4 +62,3 @@ CharacterSchema.plugin(uniqueValidator);
 const Characters = mongoose.model('characters', CharacterSchema);
 
 module.exports = Characters;
-//todo ajouter les Points d'Amelioration(PA)

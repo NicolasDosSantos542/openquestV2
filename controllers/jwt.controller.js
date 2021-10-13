@@ -53,6 +53,7 @@ exports.checkTokenAdmin = async function (req, res, next) {
             res.status(401).json({message: 'Error. Bad token'})
         } else {
             req.user = jwt.decode(token, {complete: false});
+
             const user = await User.findOne({_id: req.user.id});
             if (user.admin) {
                 return next()
@@ -75,3 +76,4 @@ exports.validationToken = async function (req, res, next) {
     })
 
 }
+

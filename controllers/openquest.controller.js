@@ -12,6 +12,7 @@ exports.register = async (req, res) => {
 
 exports.createCharacter = async (req, res)=>{
     try {
+        console.log("userAdmin = ",req.user)
         req.body.userId=req.user.id;
         let resService = await openquestService.newCharacter(req.body)
         resService ? res.status(201).json(resService) : res.status(400).json(resService)
@@ -56,5 +57,15 @@ exports.getFromDatabase = async (req, res) => {
         }
     } catch (error) {
         res.status(403).json({success: false, error})
+    }
+}
+exports.deleteCharacter = async(req,res)=>{
+
+    try{
+        let resService = await openquestService.deleteCharacter(req.params.id, req.user)
+        resService ? res.status(201).json(resService) : res.status(400).json(resService)
+    }catch(error){
+        res.status(403).json({success: false, error})
+
     }
 }
