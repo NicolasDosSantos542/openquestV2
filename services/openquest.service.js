@@ -150,7 +150,20 @@ exports.updateCharacter = async (body,id) => {
     try {
         console.log("toto")
        let response = await Character.updateOne({_id : id}, body)
-        return response;
+        if (response.n) {
+            return {
+                success: true,
+                response: response,
+                message: "requête envoyée avec succès"
+
+            }
+        } else {
+            return {
+                success: false,
+                response: response,
+                message: "erreur"
+            }
+        }
 
     } catch (error) {
         throw error;

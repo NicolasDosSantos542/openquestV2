@@ -11,7 +11,7 @@ router.post('admin/magic/:dataName',checkTokenMiddleware.checkTokenAdmin, openqu
 //GET
 
 //DELETE
-router.delete('admin/character/:id',checkTokenMiddleware.checkTokenAdmin, openquestController.deleteCharacter )
+router.delete('/admin/character/:id',checkTokenMiddleware.checkTokenAdmin, openquestController.deleteCharacter )
 
 
 //routes USER
