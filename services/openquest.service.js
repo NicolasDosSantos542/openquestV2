@@ -110,20 +110,34 @@ exports.deleteCharacter = async (id, user) => {
     try {
 
         if (user.admin) {
-           let response = await Character.deleteOne({userId: user.id, _id: id})
-            return {
-                success: true,
-                response: response,
-                message: "personnage supprimé"
-            }
-        } else {
-            try {
-                let response = await Character.updateOne({_id: '615d8ef9a665521ed891e2ee'}, {archived:true});
+            let response = await Character.deleteOne({ _id: id})
+            console.log(response)
+            if(response.n) {
                 return {
                     success: true,
-                    response: response,
-                    message: "personnage archivé"
+                    message: "personnage supprimé"
+                }
+            }else{
+                return { success: false,
+                message :"erreur"}
+            }
 
+        } else {
+            try {
+                let response = await Character.updateOne({ _id: id}, {archived: true});
+                if (response.n) {
+                    return {
+                        success: true,
+                        response: response,
+                        message: "personnage archivé"
+
+                    }
+                } else {
+                    return {
+                        success: false,
+                        response: response,
+                        message: "erreur"
+                    }
                 }
             } catch (e) {
                 return e;
