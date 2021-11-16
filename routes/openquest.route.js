@@ -11,7 +11,7 @@ router.post('admin/magic/:dataName',checkTokenMiddleware.checkTokenAdmin, openqu
 //GET
 
 //DELETE
-router.delete('admin/character/:id',checkTokenMiddleware.checkTokenAdmin, openquestController.deleteCharacter )
+router.delete('/admin/character/:id',checkTokenMiddleware.checkTokenAdmin, openquestController.deleteCharacter )
 
 
 //routes USER
@@ -21,6 +21,9 @@ router.post('/character/',checkTokenMiddleware.checkToken, openquestController.c
 //GET
 router.get('/magic/:type', openquestController.getMagicFromDatabase);
 router.get('/get/:type', openquestController.getFromDatabase);
+
+//PUT
+router.put('/character/:id', checkTokenMiddleware.checkToken, openquestController.updateCharacter)
 
 //DELETE
 router.delete('/character/:id',checkTokenMiddleware.checkToken, openquestController.deleteCharacter )

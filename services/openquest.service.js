@@ -48,7 +48,6 @@ exports.newCreation = async (body, type) => {
 
 exports.newCharacter = async (body) => {
     try {
-        console.log("toto")
         let creation = new Character;
 
         Object.assign(creation, body)
@@ -111,7 +110,6 @@ exports.deleteCharacter = async (id, user) => {
 
         if (user.admin) {
             let response = await Character.deleteOne({ _id: id})
-            console.log(response)
             if(response.n) {
                 return {
                     success: true,
@@ -145,5 +143,29 @@ exports.deleteCharacter = async (id, user) => {
         }
     } catch (e) {
         throw e;
+    }
+}
+
+exports.updateCharacter = async (body,id) => {
+    try {
+        console.log("toto")
+       let response = await Character.updateOne({_id : id}, body)
+        if (response.n) {
+            return {
+                success: true,
+                response: response,
+                message: "requête envoyée avec succès"
+
+            }
+        } else {
+            return {
+                success: false,
+                response: response,
+                message: "erreur"
+            }
+        }
+
+    } catch (error) {
+        throw error;
     }
 }
