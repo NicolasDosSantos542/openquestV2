@@ -22,6 +22,9 @@ router.post('/character/',checkTokenMiddleware.checkToken, openquestController.c
 router.get('/magic/:type', openquestController.getMagicFromDatabase);
 router.get('/get/:type', openquestController.getFromDatabase);
 
+//PUT
+router.put('/character/:id', checkTokenMiddleware.checkToken, openquestController.updateCharacter)
+
 //DELETE
 router.delete('/character/:id',checkTokenMiddleware.checkToken, openquestController.deleteCharacter )
 
