@@ -1,13 +1,13 @@
 const User = require('../models/userModel');
-const nodemailer = require('nodemailer')
 const jwt = require('jsonwebtoken')
-const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        user: process.env.EMAIL,
-        pass: process.env.PASSWORD
-    }
-});
+// const nodemailer = require('nodemailer')
+// const transporter = nodemailer.createTransport({
+//     service: 'gmail',
+//     auth: {
+//         user: process.env.EMAIL,
+//         pass: process.env.PASSWORD
+//     }
+// });
 
 // register validation
 exports.emailValidation = async (email) => {
@@ -30,6 +30,7 @@ exports.loginUnique = async (login) => {
 }
 
 // mailling
+/*
 exports.sendMailVerification = async (email, login) => {
     const token = jwt.sign({
         email: email,
@@ -46,3 +47,4 @@ exports.sendMailVerification = async (email, login) => {
     };
     await transporter.sendMail(mailOptions)
 }
+*/

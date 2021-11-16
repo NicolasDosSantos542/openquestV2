@@ -29,7 +29,7 @@ exports.register = async (body) => {
                     verified: false
                 });
                 await user.save();
-                await validation.sendMailVerification(body.email, body.login)
+               // await validation.sendMailVerification(body.email, body.login)
                 return {success: true};
         }
     } catch (error) {

@@ -3,6 +3,7 @@ const uniqueValidator = require('mongoose-unique-validator');
 
 const CharacterSchema = new mongoose.Schema({
     name: {type: String},
+    userId: {type: String, required: true},
     race: String,
     culture: String,
     Age: Number,
@@ -39,17 +40,19 @@ const CharacterSchema = new mongoose.Schema({
             name: String,
             magnitude: Number
         }
-        ],
+    ],
     equipment: [{
         name: String,
-        enc : Number
+        enc: Number
     }],
     relationships: [{
         name: String,
         value: Number,
         details: String
     }],
-    notes: String
+    notes: String,
+    PA: Number,
+    archived: {type: Boolean, default: false}
 
 
 });
